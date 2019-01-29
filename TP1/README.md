@@ -14,9 +14,9 @@ To finish this TP, you first need to create a copy of this GitHub repository und
     git clone https://github.com/YOUR-USERNAME/info232.git
     ```
     
-Above command lines create a directory `projects/` in your home directory (`~`) and make a local copy (`git clone`) using the URL you just copied. Now you should have a directory at `~/projects/info232` with all materials we need for this TP.
+    Above command lines create a directory `projects/` in your home directory (`~`) and make a local copy (`git clone`) using the URL you just copied. Now you should have a directory at `~/projects/info232` with all materials we need for this TP.
 
-For more info on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/).
+    For more info on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
 
 ## Step 2: Setup Docker and Launch Jupyter Notebook 
 This step is the **main part** of this TP.
