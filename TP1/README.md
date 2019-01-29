@@ -38,9 +38,9 @@ jupyter3-notebook --ip=127.0.0.1
 ```
 In the popped page in Jupyter notebook, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`
 
+**Then answer the questions in this notebook. You don't have to answer all questions to have full score (5/5). Only 5 correct answers will do.**
 
-
-In the whole course following, we'll use Python 3 instead of Python 2. So in each session of terminal, you can prioritize Python 3 by running
+In the whole course following, we'll use Python 3 instead of Python 2. But by default, the system will use Python 2 when you use the command `python` in terminal (type `which python` to see why). So in each session of terminal, you can prioritize Python 3 by running
 ```
 export PATH="/opt/anaconda3/bin:$PATH"
 ```
