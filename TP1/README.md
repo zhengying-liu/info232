@@ -69,7 +69,7 @@ Probably you'll be asked to type your GitHub username and password. Make sure to
 At last, please fill in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link).
 
 ## Appendix: How to Access the Jupyter Notebook from Home
-It happens that you don't finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
+It could happen that you don't manage to finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
 1. On a local machine, run: 
     ```bash
     ssh PRENOM.NOM@tp-ssh1.dep-informatique.u-psud.fr
