@@ -31,6 +31,8 @@ To finish this TP, you first need to create a copy of this GitHub repository und
 ## Step 2: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
 
+If you use a computer of the university, you can directly go to next paragraph and begin working. But if you choose to use your own computer, mostly you need to first install some softwares such as [Anaconda](https://www.anaconda.com/download/)(with Python 3) and PuTTY for Windows. In this case, turn to the teacher/assistant for help. In the following, we'll suppose you use a Unix-like operating system (Linux, MacOS, etc) or at least a similar shell tool (such as PowerShell for Windows).
+
 In a termimal, run
 ```
 export PATH="/opt/anaconda3/bin:$PATH"
@@ -64,3 +66,23 @@ Probably you'll be asked to type your GitHub username and password. Make sure to
 
 ## Step 4: Answer the Google Forms
 At last, please fill in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link).
+
+## Appendix: How to Access the Jupyter Notebook from Home
+It happens that you don't finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
+1. On a local machine, run: 
+    ```bash
+    ssh PRENOM.NOM@tp-ssh1.dep-informatique.u-psud.fr
+    ```
+    (use your OWN name!) and type your password. Now it's like we are on a remote machine;
+2. On the remote machine, run: 
+    ```bash
+    jupyter-notebook --ip=127.0.0.1 --no-browser --port=8889
+    ```
+    Make sure that the command `jupyter-notebook` is that of Anaconda 3, see Step 2. Then you will see a URL which begins by  `http://127.0.0.1:8889/?token=4785b6...`. Copy the token.
+    
+3. On the local machine, run: 
+    ```bash
+    ssh -N -f -L localhost:8888:localhost:8889 PRENOM.NOM@tp-ssh1.dep-informatique.u-psud.fr
+    ```
+    (again use your own name and password)
+4. Then on your local machine, you can remotely access the Jupyter notebook using the URL `http://localhost:8888` with your favorite browser. If this is the first time you access this Jupyter notebook, you need to provide a token, which you already copied previously.
