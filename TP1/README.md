@@ -28,8 +28,30 @@ To finish this TP, you first need to create a copy of this GitHub repository und
 
 To make sure that all participants in data challenges all share the same computing resources and have access to necessary Python libraries, we use [Docker](https://opensource.com/resources/what-docker) to provide virtual environments (called Docker containers) that are shared by all participants. So we'll also use Docker in our TP.
 
-If you work with a computer of the university, you should already have Docker installed. If you use your own personal computer, google 'how to install Docker'. After 
+If you work with a computer of the university, you should already have Docker installed. If you use your own personal computer, google 'how to install Docker'. After setting up Docker, run
+```
+docker run -it -p 8888:8888 codalab/codalab-legacy:py3
+```
+Then in the container, launch Jupyter notebook by running
+```
+jupyter3-notebook --ip=127.0.0.1
+```
+In the popped page, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`
+
+
+
+In the whole course following, we'll use Python 3 instead of Python 2. So in each session of terminal, you can prioritize Python 3 by running
+```
+export PATH="/opt/anaconda3/bin:$PATH"
+```
+And if you want to run this line automatically at each time you launch a terminal, you can append it to the file `~/.bash_profile` by following command line:
+```
+echo 'export PATH="/opt/anaconda3/bin:$PATH"' >> ~/.bash_profile
+```
+
+**This step is to be improved**
 
 ## Step 3: Update Your Own Repo on GitHub Using 'git push'
+After answering all questions in the Jupyter notebook in this TP, you need to 
 
 ## Step 4: Answer the Google Form
