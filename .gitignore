@@ -1,3 +1,4 @@
 *.DS_Store*
 *__pycache__*
 *README_solution*
+*.ipynb_checkpoints*
