@@ -28,33 +28,25 @@ To finish this TP, you first need to create a copy of this GitHub repository und
 
     For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
 
-## Step 2: Setup Docker and Launch Jupyter Notebook 
+## Step 2: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
 
-To make sure that all participants in data challenges all share the same computing resources and have access to necessary Python libraries, we use [Docker](https://opensource.com/resources/what-docker) to provide virtual environments (called Docker containers) that are shared by all participants. So we'll also use Docker in our TP.
-
-If you work with a computer of the university, you should already have Docker installed. If you use your own personal computer, google 'how to install Docker'. After setting up Docker, run
+In a termimal, run
 ```
-docker run -it -p 8888:8888 codalab/codalab-legacy:py3
+export PATH="/opt/anaconda3/bin:$PATH"
+cd ~/projects/info232
+jupyter-notebook --ip=127.0.0.1 
 ```
-Then in the container, launch Jupyter notebook by running
-```
-jupyter3-notebook --ip=127.0.0.1 
-```
-In the popped page in Jupyter notebook, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`. (You can also do this by directly running `jupyter3-notebook --ip=127.0.0.1 ~/projects/info232/TP1/README.ipynb`)
+Then you should see a webpage pop up displaying the directory `~/projects/info232`. Then navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`. (You can also do this by directly running `jupyter-notebook --ip=127.0.0.1 ~/projects/info232/TP1/README.ipynb`)
 
 **Then answer the questions in this notebook. You don't have to answer all questions to have full score (5/5). Only 5 correct answers will do.**
 
-In the whole course following, we'll use Python 3 instead of Python 2. But by default, the system will use Python 2 when you use the command `python` in terminal (type `which python` to see why). So in each session of terminal, you can prioritize Python 3 by running
-```
-export PATH="/opt/anaconda3/bin:$PATH"
-```
-And if you want to run this line automatically at each time you launch a terminal, you can append it to the file `~/.bash_profile` by following command line:
+In this whole course, we'll use Python 3 instead of Python 2. But by default, the system will use Python 2 when you use the command `python` directly in terminal (type `which python` to see why). This explains why we ran the line 
+`export PATH="/opt/anaconda3/bin:$PATH"`. It prioritizes the search of the command `python` (or `jupyter`, `jupyter-notebook`, etc) in the Anaconda3 directory `/opt/anaconda3/bin` first. And if you want to avoid running this command everytime when you launch a terminal, you can append it to the file `~/.bash_profile` by following command line:
 ```
 echo 'export PATH="/opt/anaconda3/bin:$PATH"' >> ~/.bash_profile
 ```
-
-**This step is to be improved**
+Then it'll be automatically run when launching a terminal.
 
 ## Step 3: Update Your Own Repo on GitHub Using 'git push'
 After answering all questions in the Jupyter notebook in this TP, you need to update these changes to your remote repo on GitHub, such that the teacher can look at it and give you a score!
