@@ -21,7 +21,7 @@ To finish this TP, you first need to create a copy of this GitHub repository und
     
     Above command lines create a directory `projects/` in your home directory (`~`) and make a local copy (by `git clone`) using the URL you just copied. Now you should have a directory at `~/projects/info232` with all materials we need for this TP.
 
-    For more info on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
+    For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
 
 ## Step 2: Setup Docker and Launch Jupyter Notebook 
 *(This step is the **main part** of this TP)*
@@ -62,6 +62,8 @@ git commit -m "Mon premier TP a ete juste parfait!"
 git push
 ```
 Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
+
+*Git is a very useful and powerful tool for version controling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
 
 ## Step 4: Answer the Google Forms
 At last, please fill in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link).
