@@ -79,7 +79,7 @@ It could happen that you don't manage to finish the TP in class. But fortunately
     ```bash
     jupyter-notebook --ip=127.0.0.1 --no-browser --port=8889
     ```
-    Make sure that the command `jupyter-notebook` is that of Anaconda 3, see [Step 2]((#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp)). Then you will see a URL which begins by  `http://127.0.0.1:8889/?token=4785b6...`. Copy the token.
+    Make sure that the command `jupyter-notebook` is that of Anaconda 3, see [Step 2](#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp). Then you will see a URL which begins by  `http://127.0.0.1:8889/?token=4785b6...`. Copy the token.
     
 3. On the local machine, run: 
     ```bash
