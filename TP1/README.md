@@ -1,5 +1,10 @@
 Instructions for TP1
 ========
+## Table of Contents
+* [Step 1: Create a Copy of This Repo using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
+* [Step 2: Setup Docker and Launch Jupyter Notebook](#step-2-setup-docker-and-launch-jupyter-notebook)
+* [Step 3: Update Your Own Repo on GitHub Using 'git push'](#step-3-update-your-own-repo-on-github-using-git-push)
+* [Step 4: Answer the Google Forms](#step-4-answer-the-google-forms)
 
 ## Step 1: Create a Copy of This Repo using *Fork*
 To finish this TP, you first need to create a copy of this GitHub repository under your own GitHub account. We will use a feature that GitHub provides called *forking*. To do this, you need to
