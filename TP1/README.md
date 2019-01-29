@@ -34,9 +34,9 @@ docker run -it -p 8888:8888 codalab/codalab-legacy:py3
 ```
 Then in the container, launch Jupyter notebook by running
 ```
-jupyter3-notebook --ip=127.0.0.1
+jupyter3-notebook --ip=127.0.0.1 
 ```
-In the popped page in Jupyter notebook, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`
+In the popped page in Jupyter notebook, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`. (You can also do this by directly running `jupyter3-notebook --ip=127.0.0.1 ~/projects/info232/TP1/README.ipynb`)
 
 **Then answer the questions in this notebook. You don't have to answer all questions to have full score (5/5). Only 5 correct answers will do.**
 
