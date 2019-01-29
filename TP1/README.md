@@ -36,7 +36,7 @@ Then in the container, launch Jupyter notebook by running
 ```
 jupyter3-notebook --ip=127.0.0.1
 ```
-In the popped page, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`
+In the popped page in Jupyter notebook, navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`
 
 
 
@@ -52,6 +52,16 @@ echo 'export PATH="/opt/anaconda3/bin:$PATH"' >> ~/.bash_profile
 **This step is to be improved**
 
 ## Step 3: Update Your Own Repo on GitHub Using 'git push'
-After answering all questions in the Jupyter notebook in this TP, you need to 
+After answering all questions in the Jupyter notebook in this TP, you need to update these changes to your remote repo on GitHub, such that the teacher can look at it and give you a score!
 
-## Step 4: Answer the Google Form
+To do this, you can open a terminal and run
+```bash
+cd ~/projects/info232
+git add TP1/README.ipynb
+git commit -m "Mon premier TP a ete juste parfait!"
+git push
+```
+Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
+
+## Step 4: Answer the Google Forms
+At last, please fill in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link).
