@@ -2,9 +2,9 @@ Instructions for TP1
 ========
 ## Table of Contents
 * [Step 1: Create a Copy of This Repo using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
-* [Step 2: Launch Jupyter Notebook and Answer Questions of This TP](#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp)
-* [Step 3: Update Your Own Repo on GitHub Using 'git push'](#step-3-update-your-own-repo-on-github-using-git-push)
-* [Step 4: Answer the Google Forms](#step-4-answer-the-google-forms)
+* [Step 2: Answer the Google Forms](#step-2-answer-the-google-forms)
+* [Step 3: Launch Jupyter Notebook and Answer Questions of This TP](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
+* [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix: How to Access the Jupyter Notebook from Home](#appendix-how-to-access-the-jupyter-notebook-from-home)
 
 ## Step 1: Create a Copy of This Repo using *Fork*
@@ -87,7 +87,7 @@ It could happen that you don't manage to finish the TP in class. But fortunately
     ```bash
     jupyter-notebook --ip=127.0.0.1 --no-browser --port=8889
     ```
-    Make sure that the command `jupyter-notebook` is that of Anaconda 3, see [Step 2](#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp). Then you will see a URL which begins by  `http://127.0.0.1:8889/?token=4785b6...`. Copy the token.
+    Make sure that the command `jupyter-notebook` is that of Anaconda 3, see [Step 3](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp). Then you will see a URL which begins by  `http://127.0.0.1:8889/?token=4785b6...`. Copy the token.
     
 3. On the local machine, run: 
     ```bash
