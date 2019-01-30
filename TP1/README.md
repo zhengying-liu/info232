@@ -72,6 +72,10 @@ Probably you'll be asked to type your GitHub username and password. Make sure to
 
 *Git is a very useful and powerful tool for version controling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
 
+**CE N'EST PAS FINI!!** 
+Go to your repo and verify that your answers are in there!
+EVERY TIME YOU "commit", USE A DIFFERENT MESSAGE IN -m "message" to track your changes.
+
 ## Appendix: How to Access the Jupyter Notebook from Home
 It could happen that you don't manage to finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
 1. On a local machine, run: 
