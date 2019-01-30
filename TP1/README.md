@@ -28,8 +28,11 @@ To finish this TP, you first need to create a copy of this GitHub repository und
     Above command lines create a directory `projects/` in your home directory (`~`) and make a local copy (by `git clone`) using the URL you just copied. Now you should have a directory at `~/projects/info232` with all materials we need for this TP.
 
     For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
+    
+## Step 2: Answer the Google Forms
+Submit the name of your repo in this form [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link). This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 3 to push new changes.
 
-## Step 2: Launch Jupyter Notebook and Answer Questions of This TP
+## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
 
 If you use a computer of the university, you can directly go to next paragraph and begin working. But if you choose to use your own computer, mostly you need to first install some softwares such as [Anaconda](https://www.anaconda.com/download/)(with Python 3) and PuTTY for Windows. In this case, turn to the teacher/assistant for help. In the following, we'll suppose you use a Unix-like operating system (Linux, MacOS, etc) or at least a similar shell tool (such as PowerShell for Windows).
@@ -51,7 +54,7 @@ echo 'export PATH="/opt/anaconda3/bin:$PATH"' >> ~/.bash_profile
 ```
 Then it'll be automatically run when launching a terminal.
 
-## Step 3: Update Your Own Repo on GitHub Using 'git push'
+## Step 4: Update Your Own Repo on GitHub Using 'git push'
 After answering all questions in the Jupyter notebook in this TP, you need to update these changes to your remote repo on GitHub, such that the teacher can look at it and give you a score!
 
 To do this, you can open a terminal and run
@@ -64,9 +67,6 @@ git push
 Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
 
 *Git is a very useful and powerful tool for version controling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
-
-## Step 4: Answer the Google Forms
-At last, please fill in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link).
 
 ## Appendix: How to Access the Jupyter Notebook from Home
 It could happen that you don't manage to finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
