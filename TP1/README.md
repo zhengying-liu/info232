@@ -30,7 +30,7 @@ To finish this TP, you first need to create a copy of this GitHub repository und
     For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
     
 ## Step 2: Answer the Google Forms
-Submit the name of your repo in this form [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link). This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 3 to push new changes.
+Submit the name of your repo in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link). This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 3 to push new changes.
 
 ## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
