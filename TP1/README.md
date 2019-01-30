@@ -57,7 +57,11 @@ Then it'll be automatically run when launching a terminal.
 ## Step 4: Update Your Own Repo on GitHub Using 'git push'
 After answering all questions in the Jupyter notebook in this TP, you need to update these changes to your remote repo on GitHub, such that the teacher can look at it and give you a score!
 
-To do this, you can open a terminal and run
+To do this, first make sure all the cells of your notebook are run and your LATEST notebook is saved:
+* Before you push your homework to your GitHub repo, use  Kernel + Restart and Run all.
+* Save your notebook  with menu File + Save and Checkpoint.
+
+you can open a terminal and run
 ```bash
 cd ~/projects/info232
 git add TP1/README.ipynb
