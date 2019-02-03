@@ -102,6 +102,6 @@ It could happen that you don't manage to finish the TP in class. But fortunately
     export PATH="/opt/anaconda3/bin:$PATH"
     cd ~/projects/info232
     jupyter-notebook --ip=127.0.0.1 
- just click on the Jypiter icon in the menu.
+ just click on the Jupyter icon in the menu.
 
 Credits: Isabelle Shao provided these instructions.
