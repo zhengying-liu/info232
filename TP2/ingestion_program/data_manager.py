@@ -71,7 +71,7 @@ class DataManager:
 				self.tmp_dir = "tmp"
 		info_file = os.path.join (self.input_dir, basename + '_public.info')
 		self.info = {}
-		self.getInfo (info_file)
+		self.getInfo (info_file, verbose=verbose)
 		self.feat_type = self.loadType (os.path.join(self.input_dir, basename + '_feat.type'), verbose=verbose)
 		self.data = {}  
   		#if True: return
@@ -95,11 +95,11 @@ class DataManager:
 			Xte = Xte[:,idx]  
 		self.feat_idx = np.array(idx).ravel()
 		self.data['X_train'] = Xtr
-		self.data['Y_train'] = Ytr
+		self.data['Y_train'] = Ytr.ravel() # Apparently scikit-learn does not like column arrays
 		self.data['X_valid'] = Xva
-		self.data['Y_valid'] = Yva
+		self.data['Y_valid'] = Yva.ravel() # Apparently scikit-learn does not like column arrays
 		self.data['X_test'] = Xte
-		self.data['Y_test'] = Yte
+		self.data['Y_test'] = Yte.ravel() # Apparently scikit-learn does not like column arrays
           
 	def __repr__(self):
 		return "DataManager : " + self.basename
