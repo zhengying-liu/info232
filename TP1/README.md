@@ -76,7 +76,7 @@ Probably you'll be asked to type your GitHub username and password. Make sure to
 Go to your repo and verify that your answers are in there!
 EVERY TIME YOU "commit", USE A DIFFERENT MESSAGE IN -m "message" to track your changes.
 
-## Appendix: How to Access the Jupyter Notebook from Home
+## Appendix A: How to Access the Jupyter Notebook from Home
 It could happen that you don't manage to finish the TP in class. But fortunately, you can continue working on it even when you are at home. The steps to follow are:
 1. On a local machine, run: 
     ```bash
@@ -95,3 +95,13 @@ It could happen that you don't manage to finish the TP in class. But fortunately
     ```
     (again use your own name and password)
 4. Then on your local machine, you can remotely access the Jupyter notebook using the URL `http://localhost:8888` with your favorite browser. If this is the first time you access this Jupyter notebook, you need to provide a token, which you already copied previously.
+
+## Appendix B: How to run your TP on your own Windows machine
+* Download and install [git](https://git-scm.com/download/win) . You will get a console MINGW64 at teh same time, use it to process all the commands provided above.
+* Instead of these instructions
+    export PATH="/opt/anaconda3/bin:$PATH"
+    cd ~/projects/info232
+    jupyter-notebook --ip=127.0.0.1 
+ just click on the Jypiter icon in the menu.
+
+Credits: Isabelle Shao provided these instructions.
