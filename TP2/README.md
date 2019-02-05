@@ -45,7 +45,7 @@ Now you need to update your GitHub repo just as [last week](https://github.com/z
 2. Then run:
 	```bash
 	cd ~/projects/info232/TP2
-	git add \*.ipynb \*.py
+	git add *.ipynb *.py
 	git commit -m "Si je ne modifie pas ce message de commit, je suis un cochon"
 	git push
 	```
