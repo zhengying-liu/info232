@@ -44,8 +44,8 @@ Now you need to update your GitHub repo just as [last week](https://github.com/z
 1. Re-run and save your LATEST notebook by clicking on *Kernel -> Restart and Run all* and then *File -> Save and Checkpoint*;
 2. Then run:
 	```bash
-	cd ~/projects/info232
-	git add TP2/README.ipynb
+	cd ~/projects/info232/TP2
+	git add *.ipynb *.py
 	git commit -m "Si je ne modifie pas ce message de commit, je suis un cochon"
 	git push
 	```
