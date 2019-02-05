@@ -1,6 +1,10 @@
 Instructions for TP2
 ========
 ## Table of Contents
+* [Step 1: Fetch Materials for TP2 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
+* [Step 2: Launch Jupyter Notebook and Answer Questions of This TP](#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp)
+* [Step 3: Update Your Own Repo on GitHub Using 'git push' and CHECK](#step-3-update-your-own-repo-on-github-using-git-push-and-check)
+* [Step 4: Make a Submission on CodaLab](#step-4-make-a-submission-on-codalab)
 
 ## Step 1: Fetch Materials for TP2 from Upstream
 Last week, we've forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP2, you need to open a terminal and run:
@@ -54,7 +58,7 @@ Now you need to update your GitHub repo just as [last week](https://github.com/z
 
 ## Step 4: Make a Submission on CodaLab
 
-After answering the last question of the Jupyter notebook in Step 2, you should now have two new files under the directory `info232/`: `sample_code_submission_<DATE>.zip` and `sample_result_submission_<DATE>.zip`. Either of these 2 files should be a valid submission file for [this Iris competition](https://codalab.lri.fr/competitions/204).
+After answering the last question of the Jupyter notebook in Step 2, you should now have two new files under the directory `info232/`: `sample_code_submission_<DATE>.zip` and `sample_result_submission_<DATE>.zip`. Either of these 2 files should be a valid submission file for [this Iris competition](https://codalab.lri.fr/competitions/204). Now make a submission and get your new score!
 
 The steps to follow are:
 1. Go to the [competition page]((https://codalab.lri.fr/competitions/204)), sign up and accept terms;
