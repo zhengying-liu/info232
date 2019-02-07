@@ -14,12 +14,7 @@ git remote add upstream https://github.com/zhengying-liu/info232.git
 git fetch upstream master
 git checkout upstream/master TP2
 ```
-and you'll find a new folder `TP2` in your directory, which contains the materials we need for today.
-
-**To Go Further:** what the three command lines above do is 
-1. Add the repo `zhengying-liu/info232` as a *remote* named `upstream`. To see the effect of the first command line, you can run `git remote -v` and normally you'll find two remotes: `origin` and `upstream`. The remote `origin` is automatically created when you did `git clone <your-own-GitHub-repo>` last week. And `upstream` is the remote we add this week. For the rest of the course, we'll use this remote to fetch new materials each week;
-2. Fetch commits made in the branch `master` of the remote `upstream`. You'll see no explicit changes since the changes are made in the hidden local directory `.git/`, which is the local repo on your computer;
-3. Overwrite the (non-existing) directory `TP2/` in the working directory (`~/projects/info232/` on your computer) by replacing with the contents in `upstream/master` (which is in the GitHub repo `zhengying-liu/info232`).
+and you'll find a new folder `TP2` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix A.
 
 ## Step 2: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP, just as last week)*
@@ -76,3 +71,9 @@ If you want to avoid going over the whole Jupyter notebook to generate submissio
   `python ingestion_program/ingestion.py public_data sample_result_submission ingestion_program sample_code_submission`
 
 then zip the contents of sample_result_submission (without the directory).
+
+## Appendix A: Details about Gihub commands
+What the three command lines we prescribe do is: 
+1. Add the repo `zhengying-liu/info232` as a *remote* named `upstream`. To see the effect of the first command line, you can run `git remote -v` and normally you'll find two remotes: `origin` and `upstream`. The remote `origin` is automatically created when you did `git clone <your-own-GitHub-repo>` last week. And `upstream` is the remote we add this week. For the rest of the course, we'll use this remote to fetch new materials each week;
+2. Fetch commits made in the branch `master` of the remote `upstream`. You'll see no explicit changes since the changes are made in the hidden local directory `.git/`, which is the local repo on your computer;
+3. Overwrite the (non-existing) directory `TP2/` in the working directory (`~/projects/info232/` on your computer) by replacing with the contents in `upstream/master` (which is in the GitHub repo `zhengying-liu/info232`).
