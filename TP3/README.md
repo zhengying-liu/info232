@@ -1,13 +1,52 @@
-Instructions for TP2
+Instructions for TP3
 ========
 ## Table of Contents
-* [Step 1: Fetch Materials for TP2 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
-* [Step 2: Launch Jupyter Notebook and Answer Questions of This TP](#step-2-launch-jupyter-notebook-and-answer-questions-of-this-tp)
+* [Step 1: Test Your Group Email](#test-your-group-email)
+* [Step 2: Create group Github account](#create-group-github-account)
+* [Step 3: Create group class repo](#create-group-class-repo)
+* [Step 4: Fetch project starting kit](#fetch-project-starting-kit)
+* [Step 2: Fetch Materials for TP3](#step-1-fetch-materials-for-tp3)
+* [Step 3: Launch Jupyter Notebook and Create Sample Submission](#step-2-launch-jupyter-notebook-and-create-sample-submission)
 * [Step 3: Update Your Own Repo on GitHub Using 'git push' and CHECK](#step-3-update-your-own-repo-on-github-using-git-push-and-check)
 * [Step 4: Make a Submission on CodaLab](#step-4-make-a-submission-on-codalab)
 
-## Step 1: Fetch Materials for TP2 from Upstream
-Last week, we've forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP2, you need to open a terminal and run:
+## Step 1: Create group Codalab account
+This week you are (finally) working on your own project. These first few steps must be performed by your **group leader** only.
+(1) Test Your Group Email.
+If your group name is groupname (for instance doctor, or orbiter, etc.) then your group email is groupname@chalearn.org.
+Send a welcome message to all your group member aking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
+(2) Create a Group Account on Codalab:
+Go to https://codalab.lri.fr/competitions/ and create a NEW account in the name of the group, using **groupname@chalearn.org as email and groupname as login**. Use info232 as password or share the password with all your group members.
+(3) [group leader only!!]: Download the starting kit:
+Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). 
+
+Then go to the "Participate" tab, click on "Files".
+Download the starting kit and the public data by clicking on "Starking kit" and "Public data".
+On your local computer, create a directory for your project (replace `groupname` by your group name):
+```bash
+cd ~/projects
+mkdir groupname 
+cd groupname
+mkdir starting_kit
+cd starting_kit
+unzip ~/Téléchargements/starting_kit.zip
+cd ..
+mkdir public_data
+cd public_data
+unzip ~/Téléchargements/public_data.zip
+```
+
+(2) Go to https://github.com/ and create a NEW account in the name of the group, using groupname@chalearn.org as email.
+(3
+
+## Step 1: Create group class repo
+This week you are (finally) working on your own project. These first few steps must be performed by your group leader.
+(1) Test Your Group Email.
+If your group name is groupname (for instance doctor, or orbiter, etc.) then your group email is groupname@chalearn.org.
+Send a welcome message to all your group member aking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
+(2) Go to https://github.com/ and create a NEW account in the name of the group, using groupname@chalearn.org as email.
+(3) 
+
 ```bash
 cd ~/projects/info232
 git remote add upstream https://github.com/zhengying-liu/info232.git
