@@ -184,8 +184,8 @@ def test(D):
             
     for key in classifier_dict:
         myclassifier = classifier_dict[key]
-        acc = compute_accuracy(myclassifier, D, key) # Replace by a call to ClfScatter
-              
+        #acc = compute_accuracy(myclassifier, D, key) # Replace by a call to ClfScatter
+        acc=D.ClfScatter(myclassifier, dim1=0, dim2=1, title='oneR') #ma ligne     
     return acc # Return the last accuracy (important to get the correct answer in the TP)
     
 if __name__=="__main__":
@@ -208,4 +208,6 @@ if __name__=="__main__":
     D = DataManager(basename, input_dir) # Load data
     print(D)
     test(D)
+
+	
  
