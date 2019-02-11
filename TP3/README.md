@@ -10,7 +10,7 @@ Steps 1 and 2 must be performed by your **group leader** only.
 
 * **Test Your Group Email:**
 
-GROUP LEADER: Send a welcome message to all your group member aking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
+GROUP LEADER: Send a welcome message to all your group member asking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
 
 * **Create a Group Account on Codalab:**
 
