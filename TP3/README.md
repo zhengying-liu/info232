@@ -41,9 +41,9 @@ unzip ~/Téléchargements/starting_kit.zip
 
 GROUP LEADER:  On your local computer, initialize git:
 ```bash
-cd ~/projects/groupname/starting_kit
+cd ~/projects/groupname/
 git init
-git add .
+git add starting_kit/ public_data/
 git commit -m "First commit"
 ```
 * **Initialize your remote repo:**
@@ -55,7 +55,7 @@ Create a new repo. Name it also groupname. Do NOT initialize is with README.
 On your local computer, push the contents of the starting kit to the repo:
 
 ```bash
-cd ~/projects/groupname/starting_kit
+cd ~/projects/groupname/
 git remote add origin https://github.com/groupname/groupname.git
 git push -u origin master
 ```
