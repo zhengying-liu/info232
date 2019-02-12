@@ -43,7 +43,7 @@ GROUP LEADER:  On your local computer, initialize git:
 ```bash
 cd ~/projects/groupname/
 git init
-git add starting_kit/ public_data/
+git add starting_kit/
 git commit -m "First commit"
 ```
 * **Initialize your remote repo:**
@@ -68,6 +68,14 @@ EVERYONE IN THE GROUP: Once your leader has created your github repo, you can al
 ```bash
 cd ~/projects
 git clone https://github.com/groupname/groupname.git
+```
+
+Now, you need to copy the public_data/ into your local git. Please select the public_data that corresponds to your challenge. (if you are working on the areal project, copy public_data_areal; if you are working on the hadaca project, copy public_data_hadaca; etc.)
+
+```bash
+cd ~/projects/groupname
+mkdir public_data
+cp -r /partage/public/isabelle.guyon/M2_AIC_2019/public_data_challengename/* ~/projects/groupname/public_data/
 ```
 
 ## Step 4: Run the jupyter notebook
