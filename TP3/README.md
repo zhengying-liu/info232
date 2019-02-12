@@ -60,7 +60,7 @@ git commit -m "First commit"
 
 GROUP LEADER:  Go to https://github.com/ and create a NEW account in the name of the group, using groupname@chalearn.org as email.
 
-Create a new repo. Name it also groupname. Do NOT initialize is with README.
+Create a new repo. Name it also groupname. Do NOT initialize it with README.
 
 On your local computer, push the contents of the starting kit to the repo:
 
