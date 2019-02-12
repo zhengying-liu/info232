@@ -27,21 +27,15 @@ GROUP LEADER: Go to https://codalab.lri.fr/competitions/ and create a NEW accoun
 * **Download the starting kit:**
 
 GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). Go to the "Participate" tab, click on "Files".
-Download the starting kit and the public data by clicking on "Starking kit" and "Public data".
+Download the starting kit by clicking on "Starking kit".
 
 On your local computer, create a directory for your project 
 
 (**replace `groupname` by your group name!!!**):
 ```bash
 cd ~/projects
-mkdir groupname 
-cd groupname
-mkdir public_data
-cd public_data
-unzip ~/Téléchargements/public_data.zip
-cd ..
-mkdir starting_kit
-cd starting_kit
+mkdir groupname; cd groupname
+mkdir starting_kit; cd starting_kit
 unzip ~/Téléchargements/starting_kit.zip
 ```
 
@@ -58,7 +52,7 @@ git commit -m "First commit"
 ```
 * **Initialize your remote repo:**
 
-GROUP LEADER:  Go to https://github.com/ and create a NEW account in the name of the group, using groupname@chalearn.org as email.
+GROUP LEADER:  Go to [https://github.com/](https://github.com/) and create a NEW account in the name of the group, using groupname@chalearn.org as email.
 
 Create a new repo. Name it also groupname. Do NOT initialize it with README.
 
@@ -73,28 +67,29 @@ git push -u origin master
 ## Step 3: Clone the group repo
 
 EVERYONE IN THE GROUP: Once your leader has created your github repo, you can all clone it on your computer.
-(The group leader should not perform this step, as it already has a local version of the repo)
+**The group leader should not perform this step, as it already has a local version of the repo.**
 
 ```bash
 cd ~/projects
 git clone https://github.com/groupname/groupname.git
 ```
 
-Now, you need to copy the public_data/ into your local git. Please select the public_data that corresponds to your challenge. (if you are working on the areal project, copy public_data_areal; if you are working on the hadaca project, copy public_data_hadaca; etc.)
+EVERYONE IN THE GROUP, INCLUDING THE GROUP LEADER: Now, you need to copy the public_data/ into your local git. Please select the public_data that corresponds to your challenge (if you are working on the areal project, copy public_data_areal; if you are working on the hadaca project, copy public_data_hadaca; etc.)
 
 ```bash
 cd ~/projects/groupname
-mkdir public_data
-cp -r /partage/public/isabelle.guyon/M2_AIC_2019/public_data_challengename/* ~/projects/groupname/public_data/
+ln -s  /partage/public/isabelle.guyon/M2_AIC_2019/public_data_challengename public_data
 ```
+This does not actually copy the data but it makes it available to you via a symbolic link.
 
 ## Step 4: Run the jupyter notebook
 
-EVERYONE IN THE GROUP:  Run the jupyter notebook and run every cell. (You can use the option Kernel > Restart & Run All). Read carefully through the whole notebook. It provides you with an overview of the dataset and of the problem you aim at tackling.
+EVERYONE IN THE GROUP: Start a jupyter-notebook and run README.ipynb (for instructions to run from home, see [TP1 Appendix A] (https://github.com/zhengying-liu/info232/tree/master/TP1). Otherwise:
 
 ```bash
 jupyter-notebook --ip=127.0.0.1 ~/projects/groupname/starting_kit/README.ipynb
 ```
+Run the jupyter notebook and run every cell. (You can use the option Kernel > Restart & Run All). Read carefully through the whole notebook. It provides you with an overview of the dataset and of the problem you aim at tackling.
 
 At the end of the notebook you should see a message similar to:
 ```console
