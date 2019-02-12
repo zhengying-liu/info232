@@ -6,6 +6,14 @@ If your group name is groupname (for instance doctor, or orbiter, etc.) then you
 
 Steps 1 and 2 must be performed by your **group leader** only.
 
+Table of Contents
+=================
+* [Step 1: Create group Codalab account and download the starting kit](#step-1-create-group-codalab-account-and-download-the-starting-kit)
+* [Step 2: Create Group Github Account and a Group Repo](#step-2-create-group-github-account-and-a-group-repo)
+* [Step 3: Clone the group repo](#step-3-clone-the-group-repo)
+* [Step 4: Run the jupyter notebook](#step-4-run-the-jupyter-notebook)
+* [Step 5: Submit the sample code to Codalab](#step-5-submit-the-sample-code-to-codalab)
+
 ## Step 1: Create group Codalab account and download the starting kit
 
 * **Test Your Group Email:**
@@ -21,7 +29,9 @@ GROUP LEADER: Go to https://codalab.lri.fr/competitions/ and create a NEW accoun
 GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). Go to the "Participate" tab, click on "Files".
 Download the starting kit and the public data by clicking on "Starking kit" and "Public data".
 
-On your local computer, create a directory for your project (replace `groupname` by your group name):
+On your local computer, create a directory for your project 
+
+(**replace `groupname` by your group name!!!**):
 ```bash
 cd ~/projects
 mkdir groupname 
