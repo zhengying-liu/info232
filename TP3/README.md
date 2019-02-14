@@ -58,6 +58,7 @@ git commit -m "First commit"
 
 (3) **Push the contents of the starting kit** from your local computer to the remote repo:
 
+**GROUP LEADER:** 
 ```bash
 cd ~/projects/groupname/
 git remote add origin https://github.com/groupname/groupname.git
