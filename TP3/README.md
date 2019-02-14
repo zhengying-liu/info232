@@ -16,15 +16,15 @@ Table of Contents
 
 ## Step 1: Create group Codalab account and download the starting kit
 
-1. **Test Your Group Email:**
+(1) **Test Your Group Email:**
 
 **GROUP LEADER:** Send a welcome message to all your group member asking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
 
-1. **Create a Group Account on Codalab:**
+(2) **Create a Group Account on Codalab:**
 
 **GROUP LEADER:** Go to https://codalab.lri.fr/competitions/ and create a NEW account in the name of the group, using **groupname@chalearn.org as email and groupname as login**. Use info232 as password or share the password with all your group members.
 
-1. **Download the starting kit:**
+(3) **Download the starting kit:**
 
 GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). **ATTENTION:** Le groupes AREAL et PERSODATA doivent choisir la version "PREPROCESSED". Then go to the "Participate" tab, click on "Files".
 Download the starting kit by clicking on "Starking kit".
@@ -41,7 +41,7 @@ unzip ~/Téléchargements/starting_kit.zip
 
 ## Step 2: Create Group Github Account and a Group Repo
 
-* **Initialize your local repo:**
+(1) **Initialize your local repo:**
 
 **GROUP LEADER:**  On your local computer, initialize git:
 ```bash
@@ -50,13 +50,13 @@ git init
 git add starting_kit/
 git commit -m "First commit"
 ```
-* **DO NOT FORGET THIS STEP!! Initialize your remote repo:**
+(2) **Initialize your remote repo: (DO NOT FORGET THIS STEP!!)**
 
 **GROUP LEADER:**  Go to [https://github.com/](https://github.com/) and create a NEW account in the name of the group, using groupname@chalearn.org as email.
 
 `Create a new repo. Name it also groupname. Do NOT initialize it with README.`
 
-On your local computer, push the contents of the starting kit to the repo:
+(3) **Push the contents of the starting kit** from your local computer to the remote repo:
 
 ```bash
 cd ~/projects/groupname/
