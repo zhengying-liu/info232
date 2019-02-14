@@ -26,7 +26,7 @@ Table of Contents
 
 * **Download the starting kit:**
 
-GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). Go to the "Participate" tab, click on "Files".
+GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). **ATTENTION:** Le groupes AREAL et PERSODATA doivent choisir la version "PREPROCESSED". Then go to the "Participate" tab, click on "Files".
 Download the starting kit by clicking on "Starking kit".
 
 On your local computer, create a directory for your project 
@@ -50,11 +50,11 @@ git init
 git add starting_kit/
 git commit -m "First commit"
 ```
-* **Initialize your remote repo:**
+* **DO NOT FORGET THIS STEP!! Initialize your remote repo:**
 
 **GROUP LEADER:**  Go to [https://github.com/](https://github.com/) and create a NEW account in the name of the group, using groupname@chalearn.org as email.
 
-Create a new repo. Name it also groupname. Do NOT initialize it with README.
+`Create a new repo. Name it also groupname. Do NOT initialize it with README.`
 
 On your local computer, push the contents of the starting kit to the repo:
 
