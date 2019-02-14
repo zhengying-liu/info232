@@ -16,15 +16,15 @@ Table of Contents
 
 ## Step 1: Create group Codalab account and download the starting kit
 
-* **Test Your Group Email:**
+1. **Test Your Group Email:**
 
 **GROUP LEADER:** Send a welcome message to all your group member asking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
 
-* **Create a Group Account on Codalab:**
+1. **Create a Group Account on Codalab:**
 
 **GROUP LEADER:** Go to https://codalab.lri.fr/competitions/ and create a NEW account in the name of the group, using **groupname@chalearn.org as email and groupname as login**. Use info232 as password or share the password with all your group members.
 
-* **Download the starting kit:**
+1. **Download the starting kit:**
 
 GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). **ATTENTION:** Le groupes AREAL et PERSODATA doivent choisir la version "PREPROCESSED". Then go to the "Participate" tab, click on "Files".
 Download the starting kit by clicking on "Starking kit".
