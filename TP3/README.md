@@ -105,6 +105,31 @@ Submit one of these files:
 ```
 REPLACE `sample_data` by `public_data` in the notebook then use the option Kernel > Restart & Run All to generate submissions using the dataset of the challenge NOT just the sample data.
 
+* Special instructions for L2RPN groups *
+
+If you have chosen to work on the L2RPN (Learning to Run a Power Network) challenge, the instructions are a bit different. This is due to the fact that you need to launch pypownet which is an RL (Reinforcement Learning) environment, and that it requires some packages that are not installed by default on the computers.
+
+You first need to install matpower, pypownet and thonny locally. To do so, follow these steps:
+
+Go to /public/test_maatif, and uncompress the file guyon.tar.gz into your personal folder. Then open a terminal:
+
+```bash
+cd ~/pypownet
+chmod +x thonny\bin\*
+cd ~/projects/groupname/
+ln -s  /partage/public/isabelle.guyon/M2_AIC_2019/public_data_challengename public_data
+cd ~/projects/groupname/starting_kit/
+~/thonny/bin/jupyter notebook --ip=127.0.0.1 README.ipynb
+```
+
+At the end of the notebook you should see a message similar to:
+```console
+Submit one of these files:
+../sample_code_submission_18-12-09-21-06.zip
+../sample_result_submission_18-12-09-21-06.zip
+```
+REPLACE `sample_data` by `public_data` in the notebook then use the option Kernel > Restart & Run All to generate submissions using the dataset of the challenge NOT just the sample data.
+
 ## Step 5: Submit the sample code to Codalab
 
 **GROUP LEADER ONLY:**  
