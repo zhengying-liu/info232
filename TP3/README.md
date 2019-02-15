@@ -105,7 +105,7 @@ Submit one of these files:
 ```
 REPLACE `sample_data` by `public_data` in the notebook then use the option Kernel > Restart & Run All to generate submissions using the dataset of the challenge NOT just the sample data.
 
-* Special instructions for L2RPN groups *
+**Special instructions for L2RPN groups**
 
 If you have chosen to work on the L2RPN (Learning to Run a Power Network) challenge, the instructions are a bit different. This is due to the fact that you need to launch pypownet which is an RL (Reinforcement Learning) environment, and that it requires some packages that are not installed by default on the computers.
 
