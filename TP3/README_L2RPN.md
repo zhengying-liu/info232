@@ -27,7 +27,8 @@ Table of Contents
 
 (3) **Create virtual environment**
 
-**EVERYONE IN THE GROUP:** 
+**EVERYONE IN THE GROUP:** You need to create a virtual environment, and activate it (more info at https://virtualenv.pypa.io/en/stable/)
+
 ```bash
 pip3 install virtualenv --user
 cd ~/projects
