@@ -5,8 +5,6 @@ Instructions for TP3
 This week you are (finally) working on your own project. 
 If your group name is groupname (for instance doctor, or orbiter, etc.) then your group email is groupname@chalearn.org. It can be used to send email to all your group members, connect to your group Codalab account and your group Github account.
 
-Steps 1 and 2 must be performed by your **group leader** only.
-
 Table of Contents
 =================
 * [Step 1: Create group Codalab account and download the starting kit](#step-1-create-group-codalab-account-and-download-the-starting-kit)
