@@ -1,14 +1,14 @@
 Instructions for TP0
 ========
 ## Table of Contents
-* [Step 1: Create your own Copy of this Github Repo for TP0 using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
+* [Step 1: Create your own Copy of this Github Repo using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
 * [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynp in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch your Jupyter Notebook and Answer the Questions of TP0](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
 
-## Step 1: Create your own Copy of this Github Repo for TP0 using *Fork*
-To complete this TP, you first need to create a copy of this GitHub repository under your own GitHub account. We will use a feature that GitHub provides called *forking*. To do this, you need to
+## Step 1: Create your own Copy of this Github Repo using *Fork*
+To complete this TP and the following ones, you need to create a copy of this GitHub repository under your own GitHub account. We will use a feature that GitHub provides called *forking*. To do this, you need to
 
 1. **Create your own GitHub account** (if you don't already have one): click on **Sign Up** on this page (if you are not already signed in) then follow the instructions. 
 
