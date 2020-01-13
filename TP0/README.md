@@ -35,7 +35,7 @@ Submit the URL of your Jupiter Notebook in [ChaGrade](https://chagrade.lri.fr/ho
 ## Step 3: Launch Jupyter Notebook and Answer the Questions of TP0
 *(This step is the **main part** of this TP)*
 
-If you use a computer of the university, you can directly go to next paragraph and begin working. But if you choose to use your own computer, mostly you need to first install some software such as [Anaconda](https://www.anaconda.com/download/)(with Python 3) and PuTTY for Windows. In this case, task your teaching assistant for help. In the following, we'll suppose you use a Unix-like operating system (Linux, MacOS, etc) or at least a similar shell tool (such as PowerShell for Windows).
+If you use a computer of the university, you can directly go to next paragraph and begin working. But if you choose to use your own computer, you need to first install some software such as [Anaconda](https://www.anaconda.com/download/)(with Python 3) and PuTTY for Windows. In this case, ask your teaching assistant for help. In the following, we'll suppose you use a Unix-like operating system (Linux, MacOS, etc) or at least a similar shell tool (such as PowerShell for Windows).
 
 In a termimal, run
 ```
