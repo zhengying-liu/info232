@@ -70,7 +70,7 @@ To do this, first make sure all the cells of your notebook are run and your LATE
 Then only you can open a terminal and run
 ```bash
 cd ~/projects/info232
-git add TP1/README.ipynb
+git add TP0/TP0.ipynb
 git commit -m "I just completed my first TP!"
 git push
 ```
