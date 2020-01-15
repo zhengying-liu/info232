@@ -33,6 +33,7 @@ To complete this TP and the following ones, you need to create a copy of this Gi
 Submit the URL of your Jupiter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 18 to push new changes.
 
 **You already have an account registered on Chagrade**
+
 Login to Chagrade:
 ```
 id: firstname.name@u-psud.fr
