@@ -30,7 +30,7 @@ To complete this TP and the following ones, you need to create a copy of this Gi
     For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo of the instructors, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
     
 ## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynp in ChaGrade
-Submit the URL of your Jupiter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 18 to push new changes.
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 18 to push new changes.
 
 **You already have an account registered on Chagrade**
 
@@ -78,7 +78,7 @@ git push
 ```
 Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
 
-*Git is a very useful and powerful tool for version controling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
+*Git is a very useful and powerful tool for version controlling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
 
 **WAIT, YOU ARE NOT DONE!!** 
 Go to your repo and verify that your answers are in there!
