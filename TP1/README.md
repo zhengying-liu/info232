@@ -1,21 +1,21 @@
 Instructions for TP1
 ========
 ## Table of Contents
-* [Step 1: Fetch Materials for TP2 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
+* [Step 1: Fetch Materials for TP1 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
 * [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynb in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch Jupyter Notebook and Answer Questions of This TP](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
 
-## Step 1: Fetch Materials for TP2 from Upstream
-Last week, we've forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP2, you need to open a terminal and run:
+## Step 1: Fetch Materials for TP1 from Upstream
+Last week, you have forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP1, you need to open a terminal and run:
 ```bash
 cd ~/projects/info232
 git remote add upstream https://github.com/zhengying-liu/info232.git
 git fetch upstream master
-git checkout upstream/master TP2
+git checkout upstream/master TP1
 ```
-and you'll find a new folder `TP2` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
+and you'll find a new folder `TP1` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
     
 ## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynp in ChaGrade
 Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 25 to push new changes.
