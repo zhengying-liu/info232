@@ -12,6 +12,4 @@ This is fueled both by computational libraries like Numpy, Pandas, and Scikit-Le
 
 As a high-level and powerful programming language, Python is a must-have tool for data scientists and more generally computer scientists.
 
-##### Course schedule: Friday at 3:45 pm in room 313.
-
 [Source.](http://docs.dask.org/en/latest/why.html)
