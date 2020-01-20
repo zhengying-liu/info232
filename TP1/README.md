@@ -2,7 +2,7 @@ Instructions for TP1
 ========
 ## Table of Contents
 * [Step 1: Fetch Materials for TP1 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
-* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynb in ChaGrade](#step-2-answer-the-google-forms)
+* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynb in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch Jupyter Notebook and Answer Questions of This TP](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
