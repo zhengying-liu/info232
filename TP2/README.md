@@ -1,24 +1,24 @@
-Instructions for TP1
+Instructions for TP2
 ========
 ## Table of Contents
-* [Step 1: Fetch Materials for TP1 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
-* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynb in ChaGrade](#step-2-answer-the-google-forms)
+* [Step 1: Fetch Materials for TP2 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
+* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP2.ipynb in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch Jupyter Notebook and Answer Questions of This TP](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
 
-## Step 1: Fetch Materials for TP1 from Upstream
-Last week, you have forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP1, you need to open a terminal and run:
+## Step 1: Fetch Materials for TP2 from Upstream
+Last week, you have forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP2, you need to open a terminal and run:
 ```bash
 cd ~/projects/info232
 git remote add upstream https://github.com/zhengying-liu/info232.git
 git fetch upstream master
-git checkout upstream/master TP1
+git checkout upstream/master TP2
 ```
-and you'll find a new folder `TP1` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
+and you'll find a new folder `TP2` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
     
-## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynp in ChaGrade
-Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 25 to push new changes.
+## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP2.ipynp in ChaGrade
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "2 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 1 to push new changes.
 
 ## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
@@ -31,9 +31,9 @@ export PATH="/opt/anaconda3/bin:$PATH"
 cd ~/projects/info232
 jupyter-notebook --ip=127.0.0.1 
 ```
-Then you should see a webpage pop up displaying the directory `~/projects/info232`. Then navigate to `~/projects/info232/TP1` and open the notebook `TP1.ipynb`. (You can also do this by directly running `jupyter-notebook --ip=127.0.0.1 ~/projects/info232/TP1/TP1.ipynb`)
+Then you should see a webpage pop up displaying the directory `~/projects/info232`. Then navigate to `~/projects/info232/TP2` and open the notebook `TP2.ipynb`. (You can also do this by directly running `jupyter-notebook --ip=127.0.0.1 ~/projects/info232/TP2/TP2.ipynb`)
 
-**Then answer the questions in this notebook. You don't have to answer all questions to have full score (5/5). Only 5 correct answers will do.**
+**Then answer the questions in this notebook. This time you must answer all questions to have full score (5/5).**
 
 In this whole course, we'll use Python 3 instead of Python 2. But by default, the system will use Python 2 when you use the command `python` directly in terminal (type `which python` to see why). This explains why we ran the line 
 `export PATH="/opt/anaconda3/bin:$PATH"`. It prioritizes the search of the command `python` (or `jupyter`, `jupyter-notebook`, etc) in the Anaconda3 directory `/opt/anaconda3/bin` first. And if you want to avoid running this command everytime when you launch a terminal, you can append it to the file `~/.bash_profile` by following command line:
@@ -52,7 +52,7 @@ To do this, first make sure all the cells of your notebook are run and your LATE
 Then only you can open a terminal and run
 ```bash
 cd ~/projects/info232
-git add TP1/README.ipynb
+git add TP2/TP2.ipynb
 git commit -m "Mon second TP est fini!"
 git push
 ```
