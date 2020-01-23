@@ -18,7 +18,7 @@ git checkout upstream/master TP1
 and you'll find a new folder `TP1` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
     
 ## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynp in ChaGrade
-Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 25 to push new changes.
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "1 .  Workflow". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 25 to push new changes.
 
 ## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
@@ -52,7 +52,7 @@ To do this, first make sure all the cells of your notebook are run and your LATE
 Then only you can open a terminal and run
 ```bash
 cd ~/projects/info232
-git add TP1/README.ipynb
+git add TP1/TP1.ipynb
 git commit -m "Mon second TP est fini!"
 git push
 ```

@@ -18,7 +18,7 @@ git checkout upstream/master TP2
 and you'll find a new folder `TP2` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
     
 ## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP2.ipynp in ChaGrade
-Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "2 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 1 to push new changes.
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "2 . Pandas". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 1 to push new changes.
 
 ## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
