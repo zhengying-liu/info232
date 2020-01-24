@@ -1,36 +1,24 @@
 Instructions for TP1
 ========
 ## Table of Contents
-* [Step 1: Create a Copy of This Repo using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
-* [Step 2: Answer the Google Forms](#step-2-answer-the-google-forms)
+* [Step 1: Fetch Materials for TP1 from Upstream](#step-1-fetch-materials-for-tp2-from-upstream)
+* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynb in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch Jupyter Notebook and Answer Questions of This TP](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
 
-## Step 1: Create a Copy of This Repo using *Fork*
-To finish this TP, you first need to create a copy of this GitHub repository under your own GitHub account. We will use a feature that GitHub provides called *forking*. To do this, you need to
-
-1. **Create your own GitHub account** (if you don't already have one): click on **Sign Up** on this page (if you are not already signed in) then follow the instructions. 
-
-2. **Fork the repo**: sign in with your GitHub account then click on the **Fork** button on the top-right of this page. You will then have a copy of this GitHub repo under your own account (but not yet locally on your computer since everything is still on the server of GitHub remotely). 
-
-    For more information on *forking*, you can check [this guide page](https://help.github.com/articles/fork-a-repo/);
+## Step 1: Fetch Materials for TP1 from Upstream
+Last week, you have forked a GitHub repo from `zhengying-liu/info232` and worked on your own repo copy. From this week now, we will fetch new materials from the original repo and proceed in the same way as last week. To get new materials for TP1, you need to open a terminal and run:
+```bash
+cd ~/projects/info232
+git remote add upstream https://github.com/zhengying-liu/info232.git
+git fetch upstream master
+git checkout upstream/master TP1
+```
+and you'll find a new folder `TP1` in your directory, which contains the materials we need for today. If you are curious about what this actually does, see Appendix C.
     
-3. **Create local copy of the repo**: on the webpage of your own repo (NOT the original one at `zhengying-liu/info232`!), click the green button **Clone or download** and copy the URL to clipboard (the URL should be something like `https://github.com/YOUR-USERNAME/info232.git`). Then, open a terminal (Google it if you don't know what it means) on your own computer and type
-
-    ```bash
-    cd ~
-    mkdir projects
-    cd projects/
-    git clone https://github.com/YOUR-USERNAME/info232.git
-    ```
-    
-    Above command lines create a directory `projects/` in your home directory (`~`) and make a local copy (by `git clone`) using the URL you just copied. Now you should have a directory at `~/projects/info232` with all materials we need for this TP.
-
-    For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo, i.e. `zhengying-liu/info232`, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
-    
-## Step 2: Answer the Google Forms
-Submit the name of your repo in [this Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScNHMlgRwoKqvVJGGhF-WJtpcxAxnPq_gYYLnJM2TmmaYLQhw/viewform?usp=sf_link). This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until February 3 to push new changes.
+## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP1.ipynp in ChaGrade
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "1 .  Workflow". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 25 to push new changes.
 
 ## Step 3: Launch Jupyter Notebook and Answer Questions of This TP
 *(This step is the **main part** of this TP)*
@@ -43,7 +31,7 @@ export PATH="/opt/anaconda3/bin:$PATH"
 cd ~/projects/info232
 jupyter-notebook --ip=127.0.0.1 
 ```
-Then you should see a webpage pop up displaying the directory `~/projects/info232`. Then navigate to `~/projects/info232/TP1` and open the notebook `README.ipynb`. (You can also do this by directly running `jupyter-notebook --ip=127.0.0.1 ~/projects/info232/TP1/README.ipynb`)
+Then you should see a webpage pop up displaying the directory `~/projects/info232`. Then navigate to `~/projects/info232/TP1` and open the notebook `TP1.ipynb`. (You can also do this by directly running `jupyter-notebook --ip=127.0.0.1 ~/projects/info232/TP1/TP1.ipynb`)
 
 **Then answer the questions in this notebook. You don't have to answer all questions to have full score (5/5). Only 5 correct answers will do.**
 
@@ -64,8 +52,8 @@ To do this, first make sure all the cells of your notebook are run and your LATE
 Then only you can open a terminal and run
 ```bash
 cd ~/projects/info232
-git add TP1/README.ipynb
-git commit -m "Mon premier TP a ete juste parfait!"
+git add TP1/TP1.ipynb
+git commit -m "Mon second TP est fini!"
 git push
 ```
 Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
@@ -105,3 +93,11 @@ It could happen that you don't manage to finish the TP in class. But fortunately
  just click on the Jupyter icon in the menu.
 
 Credits: Isabelle Shao provided these instructions.
+
+## Appendix C: Details about Gihub commands
+What the three command lines we prescribe do is: 
+1. Add the repo `zhengying-liu/info232` as a *remote* named `upstream`. To see the effect of the first command line, you can run `git remote -v` and normally you'll find two remotes: `origin` and `upstream`. The remote `origin` is automatically created when you did `git clone <your-own-GitHub-repo>` last week. And `upstream` is the remote we add this week. For the rest of the course, we'll use this remote to fetch new materials each week;
+2. Fetch commits made in the branch `master` of the remote `upstream`. You'll see no explicit changes since the changes are made in the hidden local directory `.git/`, which is the local repo on your computer;
+3. Overwrite the (non-existing) directory `TP2/` in the working directory (`~/projects/info232/` on your computer) by replacing with the contents in `upstream/master` (which is in the GitHub repo `zhengying-liu/info232`).
+
+Credits: Zhengying Liu provided these instructions.
