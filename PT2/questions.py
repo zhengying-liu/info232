@@ -123,7 +123,7 @@ def question_05(answer):
 
 
 
-@Score(1/4)
+@Score(1/2)
 def question_06(answer):
     """
     If the test performance is bad but the training performance is good,
@@ -134,7 +134,7 @@ def question_06(answer):
     assert a == "over-fitting"
 
 
-@Score(1/4)
+@Score(1/2)
 def question_07(answer):
     """
     If both are bad, is the model is under-fitting or over-fitting ? 
@@ -144,7 +144,7 @@ def question_07(answer):
     assert a == "under-fitting"
 
 
-@Score(1/4)
+@Score(1/2)
 def question_08(answer):
     """
     Which models are over-fitting ?
@@ -154,7 +154,7 @@ def question_08(answer):
     assert a == ['RBF SVM', 'Decision Tree', 'Random Forest']
 
 
-@Score(1/4)
+@Score(1/2)
 def question_09(answer):
     """
     Which models are under-fitting ?
