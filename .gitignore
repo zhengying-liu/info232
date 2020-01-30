@@ -3,3 +3,6 @@
 *README_solution*
 *.ipynb_checkpoints*
 *.zip*
+
+# GRADE CSV FILES
+GRADES/
