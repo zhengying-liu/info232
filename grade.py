@@ -13,7 +13,7 @@ import pandas as pd
 from importlib import import_module
 
 from teacher import grade
-from students import STUDENTS
+from students import get_students
 
 from git_call import git_branch_tmp
 from git_call import git_checkout_teacher
@@ -31,13 +31,16 @@ def parse_args(main_description="Grading script to grade all registered students
 
 
 def run(remote_name, tp='TP0'):
-    git_fetch_remote(remote_name)
-    git_reset_remote_master(remote_name)
-    answer = import_module('{}.answers'.format(tp))
-    question = import_module('{}.questions'.format(tp))
-    print("="*80)
-    results, status = grade(question, answer)
-    print("="*80)
+    try:
+        git_fetch_remote(remote_name)
+        git_reset_remote_master(remote_name)
+        answer = import_module('{}.answers'.format(tp))
+        question = import_module('{}.questions'.format(tp))
+        print("="*80)
+        results, status = grade(question, answer)
+        print("="*80)
+    except AssertionError:
+        pass
     results['name'] = remote_name
     status['name'] = remote_name
     return results, status
@@ -52,10 +55,11 @@ def main():
     # FIXME ugly hack to access student code if they forgot to use relative import
     sys.path.append('./{}'.format(TP))
 
+    STUDENTS = get_students()
     git_branch_tmp()
     git_checkout_tmp()
     try :
-        all_results = [run(remote_name, TP) for remote_name, student_name in STUDENTS.items()]
+        all_results = [run(remote_name, TP) for student_name, remote_name in STUDENTS.items()]
         all_scores = [e[0] for e in all_results]
         all_status = [e[1] for e in all_results]
         score_table = pd.DataFrame(all_scores)
