@@ -31,6 +31,8 @@ def parse_args(main_description="Grading script to grade all registered students
 
 
 def run(remote_name, tp='TP0'):
+    results = {}
+    status  = {}
     try:
         git_fetch_remote(remote_name)
         git_reset_remote_master(remote_name)
