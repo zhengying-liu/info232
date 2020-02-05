@@ -44,6 +44,12 @@ def git_remote_add_FakeClass(remote_name):
     assert ret_code == 0, 'git remote add {} FAILED (code={}) !'.format(remote_name, ret_code)
 
 def git_delete_branch_tmp():
-    ret_code = call(['git', 'branch', '-D', 'tmp'])
+    ret_code = call(['git', 'branch', '-d', 'tmp'])
     assert ret_code == 0, 'git branch tmp FAILED (code={}) !'.format(ret_code)
+
+
+def clean_TP(TP="TP0"):
+    ret_code = call(['rm', TP, '-rf'])
+    assert ret_code == 0, 'rm {} -rf FAILED (code={}) !'.format(TP, ret_code)
+    git_checkout_TP(TP)
 

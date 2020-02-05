@@ -22,6 +22,7 @@ from git_call import git_checkout_TP
 from git_call import git_reset_remote_master
 from git_call import git_fetch_remote
 from git_call import git_delete_branch_tmp
+from git_call import clean_TP
 
 
 def parse_args(main_description="Grading script to grade all registered students"):
@@ -75,6 +76,8 @@ def main():
     except AssertionError:
         pass
     finally:
+        git_reset_remote_master("origin")
+        clean_TP(TP)
         git_checkout_teacher()
         git_delete_branch_tmp()
 
