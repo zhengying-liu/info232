@@ -9,6 +9,10 @@ def git_checkout_tmp():
     ret_code = call(['git', 'checkout', 'tmp'])
     assert ret_code == 0, 'git checkout tmp FAILED (code={}) !'.format(ret_code)
 
+def git_checkout_TP(tp="TP0"):
+    ret_code = call(['git', 'checkout', tp])
+    assert ret_code == 0, 'git checkout {} FAILED (code={}) !'.format(tp, ret_code)
+
 def git_checkout_master():
     ret_code = call(['git', 'checkout', 'master'])
     assert ret_code == 0, 'git checkout master FAILED (code={}) !'.format(ret_code)
@@ -26,8 +30,8 @@ def git_fetch_remote_master(remote_name):
     assert ret_code == 0, 'git fetch {} (code={}) !'.format(remote_name, ret_code)
 
 def git_reset_remote_master(remote_name):
-    ret_code = call(['git', 'reset', '--hard', '{}/master'.format(remote_name)])
-    assert ret_code == 0, 'git reset --hard {}/master FAILED (code={}) !'.format(remote_name, ret_code)
+    ret_code = call(['git', 'reset', '{}/master'.format(remote_name)])
+    assert ret_code == 0, 'git reset {}/master FAILED (code={}) !'.format(remote_name, ret_code)
 
 def git_remote_add_info232(remote_name):
     depot_url = "https://github.com/{}/info232.git".format(remote_name)

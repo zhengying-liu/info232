@@ -18,6 +18,7 @@ from students import get_students
 from git_call import git_branch_tmp
 from git_call import git_checkout_teacher
 from git_call import git_checkout_tmp
+from git_call import git_checkout_TP
 from git_call import git_reset_remote_master
 from git_call import git_fetch_remote
 from git_call import git_delete_branch_tmp
@@ -30,14 +31,14 @@ def parse_args(main_description="Grading script to grade all registered students
     return args
 
 
-def run(remote_name, tp='TP0'):
+def run(remote_name, question, TP='TP0'):
     results = {}
     status  = {}
     try:
         git_fetch_remote(remote_name)
         git_reset_remote_master(remote_name)
-        answer = import_module('{}.answers'.format(tp))
-        question = import_module('{}.questions'.format(tp))
+        git_checkout_TP(TP)
+        answer = import_module('{}.answers'.format(TP))
         print("="*80)
         results, status = grade(question, answer)
         print("="*80)
@@ -61,7 +62,8 @@ def main():
     git_branch_tmp()
     git_checkout_tmp()
     try :
-        all_results = [run(remote_name, TP) for student_name, remote_name in STUDENTS.items()]
+        question = import_module('{}.questions'.format(TP))
+        all_results = [run(remote_name, question, TP) for student_name, remote_name in STUDENTS.items()]
         all_scores = [e[0] for e in all_results]
         all_status = [e[1] for e in all_results]
         score_table = pd.DataFrame(all_scores)
