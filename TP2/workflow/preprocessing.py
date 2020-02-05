@@ -1,5 +1,7 @@
 import numpy as np
 
+N_POSSIBLE_PIXEL_VALUE = 256
+
 
 class ImageHistogram(object):
     """
@@ -22,7 +24,7 @@ class ImageHistogram(object):
         return X_new
 
     def _image_histogram(self, image):
-        count = np.zeros(256)
+        count = np.zeros(N_POSSIBLE_PIXEL_VALUE)
         for pix_value in image:
             count[pix_value] += 1
         return count
