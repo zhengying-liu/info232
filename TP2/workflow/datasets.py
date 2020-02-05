@@ -42,9 +42,15 @@ def load_data_easy():
     import pandas as pd
     file_path = None
     data =  pd.read_csv(file_path)
+    return X, y
+
+
+def split_X_y(data):
     X = data.drop('label').values
     y = data['label'].values
     return X, y
+
+
 
 def make_data():
     X, y = make_moons(n_samples=500, noise=0.01 )
