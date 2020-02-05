@@ -22,7 +22,7 @@ from git_call import git_checkout_tmp
 from git_call import git_checkout_TP
 from git_call import git_reset_remote_master
 from git_call import git_reset_remote_teacher
-from git_call import git_fetch_remote
+from git_call import git_fetch_remote_master
 from git_call import git_delete_branch_tmp
 from git_call import clean_TP
 
@@ -39,7 +39,7 @@ def run(remote_name, answer, question, TP='TP0'):
     status  = {}
     print('*'*15, remote_name, '*'*15)
     try:
-        git_fetch_remote(remote_name)
+        git_fetch_remote_master(remote_name)
         git_reset_remote_master(remote_name)
         git_checkout_TP(TP)
         try:
