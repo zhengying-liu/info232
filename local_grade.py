@@ -47,8 +47,8 @@ def main():
     all_status = [status]
     score_table = pd.DataFrame(all_scores)
     status_table = pd.DataFrame(all_status)
-    score_path = os.path.join(GRADE_DIR, '{}-scores.csv'.format(TP))
-    status_path = os.path.join(GRADE_DIR, '{}-status.csv'.format(TP))
+    score_path = os.path.join(GRADE_DIR, '{}-scores_1.csv'.format(TP))
+    status_path = os.path.join(GRADE_DIR, '{}-status_1.csv'.format(TP))
     score_table.to_csv(score_path)
     status_table.to_csv(status_path)
 
