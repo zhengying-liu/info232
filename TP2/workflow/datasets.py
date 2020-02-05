@@ -36,7 +36,10 @@ def load_data():
     y = np.array([fname.startswith('a') for fname, img in all_images.items()])
     return X, y
 
+
 def load_data_easy():
+    import pandas as pd
+    file_path = None
     data =  pd.read_csv(file_path)
     X = data.drop('label').values
     y = data['label'].values
