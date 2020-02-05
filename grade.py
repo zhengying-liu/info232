@@ -12,6 +12,7 @@ import pandas as pd
 
 from importlib import import_module
 from importlib import invalidate_caches
+from importlib import reload as reload_module
 from teacher import grade
 from students import get_students
 
@@ -20,6 +21,7 @@ from git_call import git_checkout_teacher
 from git_call import git_checkout_tmp
 from git_call import git_checkout_TP
 from git_call import git_reset_remote_master
+from git_call import git_reset_remote_teacher
 from git_call import git_fetch_remote
 from git_call import git_delete_branch_tmp
 from git_call import clean_TP
@@ -41,6 +43,7 @@ def run(remote_name, question, TP='TP0'):
         git_checkout_TP(TP)
         invalidate_caches()
         answer = import_module('{}.answers'.format(TP))
+        answer = reload_module(answer)
         print("="*80)
         results, status = grade(question, answer)
         print("="*80)
@@ -77,7 +80,7 @@ def main():
     except AssertionError:
         pass
     finally:
-        git_reset_remote_master("origin")
+        git_reset_remote_teacher("origin")
         clean_TP(TP)
         git_checkout_teacher()
         git_delete_branch_tmp()
