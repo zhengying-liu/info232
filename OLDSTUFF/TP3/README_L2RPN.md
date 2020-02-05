@@ -1,0 +1,124 @@
+
+Instructions for TP3
+========
+
+This week you are (finally) working on your own project. 
+If your group name is groupname (for instance doctor, or orbiter, etc.) then your group email is groupname@chalearn.org. It can be used to send email to all your group members, connect to your group Codalab account and your group Github account.
+
+Table of Contents
+=================
+* [Step 1: Create group Codalab account and download the starting kit](#step-1-create-group-codalab-account-and-download-the-starting-kit)
+* [Step 2: Create Group Github Account and a Group Repo](#step-2-create-group-github-account-and-a-group-repo)
+* [Step 3: Clone the group repo](#step-3-clone-the-group-repo)
+* [Step 4: Run the jupyter notebook](#step-4-run-the-jupyter-notebook)
+* [Step 5: Submit the sample code to Codalab](#step-5-submit-the-sample-code-to-codalab)
+
+## Step 1: Create group Codalab account and download the starting kit
+
+(1) **Test Your Group Email:**
+
+**GROUP LEADER:** Send a welcome message to all your group member asking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
+
+(2) **Create a Group Account on Codalab:**
+
+**GROUP LEADER:** Go to https://codalab.lri.fr/competitions/ and create a NEW account in the name of the group, using **groupname@chalearn.org as email and groupname as login**. Use info232 as password or share the password with all your group members.
+
+(3) **Create virtual environment**
+
+**EVERYONE IN THE GROUP:** You need to create a virtual environment, and activate it (more info at https://virtualenv.pypa.io/en/stable/)
+
+```bash
+pip3 install virtualenv --user
+cd ~/projects
+~/.local/bin/virtualenv ENV
+source ~/projects/ENV/bin/activate
+pip install jupyter
+```
+
+(4) **Download the starting kit:**
+
+GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). **ATTENTION:** Le groupes AREAL et PERSODATA doivent choisir la version "PREPROCESSED". Then go to the "Participate" tab, click on "Files".
+Download the starting kit by clicking on "Starking kit".
+
+On your local computer, create a directory for your project 
+
+(**replace `groupname` by your group name!!!**):
+```bash
+cd ~/projects
+mkdir groupname; cd groupname
+mkdir starting_kit; cd starting_kit
+unzip ~/Téléchargements/starting_kit.zip
+```
+
+## Step 2: Create Group Github Account and a Group Repo
+
+(1) **Initialize your local repo:**
+
+**GROUP LEADER:**  On your local computer, initialize git:
+```bash
+cd ~/projects/groupname/
+git init
+git add starting_kit/
+git commit -m "First commit"
+```
+(2) **Initialize your remote repo: (DO NOT FORGET THIS STEP!!)**
+
+**GROUP LEADER:**  Go to [https://github.com/](https://github.com/) and create a NEW account in the name of the group, using groupname@chalearn.org as email.
+
+`Create a new repo. Name it also groupname. Do NOT initialize it with README.`
+
+(3) **Push the contents of the starting kit** from your local computer to the remote repo:
+
+**GROUP LEADER:** 
+```bash
+cd ~/projects/groupname/
+git remote add origin https://github.com/groupname/groupname.git
+git push -u origin master
+```
+
+## Step 3: Clone the group repo
+
+**EVERYONE IN THE GROUP, EXCEPT THE GROUP LEADER:** Once your leader has created your github repo, you can all clone it on your computer.
+**The group leader should not perform this step, because he/she has already a local version of the repo.**
+
+```bash
+cd ~/projects
+git clone https://github.com/groupname/groupname.git
+```
+
+
+## Step 4: Run the jupyter notebook
+
+**EVERYONE IN THE GROUP, INCLUDING THE GROUP LEADER:**
+
+Now you need to install pypownet which is an RL-oriented environment that simulates the behavior of a power grid.
+
+```bash
+cd ~/projects
+git clone https://github.com/MarvinLer/pypownet pypownet
+git clone https://github.com/MATPOWER/matpower.git
+cd pypownet/
+python setup.py install
+cd ~/projects/groupname/starting_kit
+pip install seaborn
+pip install sklearn
+jupyter notebook --ip=127.0.0.1
+```
+Then open the README.ipynb file in your notebook page, and run every cell.
+
+At the end of the notebook you should see a message similar to:
+```console
+Submit one of these files:
+../sample_code_submission_18-12-09-21-06.zip
+../sample_result_submission_18-12-09-21-06.zip
+```
+REPLACE `sample_data` by `public_data` in the notebook then use the option Kernel > Restart & Run All to generate submissions using the dataset of the challenge NOT just the sample data.
+
+## Step 5: Submit the sample code to Codalab
+
+**GROUP LEADER ONLY:**  
+Make sure you have re-run your notebook on the `public_data` (see last instruction of the previous step).
+Go to the Codalab page of your competition (check [http://saclay.chalearn.org/](http://saclay.chalearn.org/)). Go to the "Participate" tab, click on "Submit / View Results", and submit one of the files that was generated by the notebook. After a few seconds, refresh the page and make sure that your score has successfully been computed and go to the "Results" tab to check your submission is recorded in the leaderboard. If yes, you have successfully made your first submission to your challenge!
+
+Next: organize your group in 2 binomes (preprocessing, prediction, and visualization) and split the work to prepare the project proposal.
+

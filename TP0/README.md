@@ -2,7 +2,7 @@ Instructions for TP0
 ========
 ## Table of Contents
 * [Step 1: Create your own Copy of this Github Repo using <em>Fork</em>](#step-1-create-a-copy-of-this-repo-using-fork)
-* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynp in ChaGrade](#step-2-answer-the-google-forms)
+* [Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynb in ChaGrade](#step-2-answer-the-google-forms)
 * [Step 3: Launch your Jupyter Notebook and Answer the Questions of TP0](#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp)
 * [Step 4: Update Your Own Repo on GitHub Using 'git push'](#step-4-update-your-own-repo-on-github-using-git-push)
 * [Appendix A: How to Access the Jupyter Notebook from Home](#appendix-a-how-to-access-the-jupyter-notebook-from-home)
@@ -30,7 +30,15 @@ To complete this TP and the following ones, you need to create a copy of this Gi
     For more information on *Cloning a repository*, check [this guide page](https://help.github.com/articles/cloning-a-repository/). From next TP, we will need to sync with the original repo of the instructors, and you can check [this guide](https://help.github.com/articles/fork-a-repo/#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository) in advance.
     
 ## Step 2: Enter the URL of your own Copy of the Jupyter Notebook TP0.ipynp in ChaGrade
-Submit the URL of your Jupiter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 18 to push new changes.
+Submit the URL of your Jupyter Notebook in [ChaGrade](https://chagrade.lri.fr/homework/submit/2/27/1/), for homework "0 .  Info&Tools". This way you make sure that your teacher will know where to find the answers to your TP (otherwise you get 0 points). You then have until January 18 to push new changes.
+
+**You already have an account registered on Chagrade**
+
+Login to Chagrade:
+```
+id: firstname.name@u-psud.fr
+pwd: firstname.name
+```
 
 ## Step 3: Launch Jupyter Notebook and Answer the Questions of TP0
 *(This step is the **main part** of this TP)*
@@ -64,13 +72,13 @@ To do this, first make sure all the cells of your notebook are run and your LATE
 Then only you can open a terminal and run
 ```bash
 cd ~/projects/info232
-git add TP1/README.ipynb
+git add TP0/TP0.ipynb
 git commit -m "I just completed my first TP!"
 git push
 ```
 Probably you'll be asked to type your GitHub username and password. Make sure to use the same username as the one that you used to fork the repo.
 
-*Git is a very useful and powerful tool for version controling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
+*Git is a very useful and powerful tool for version controlling and building open source software. For a tutorial, [here](http://rogerdudler.github.io/git-guide/) is a simple one.*
 
 **WAIT, YOU ARE NOT DONE!!** 
 Go to your repo and verify that your answers are in there!
