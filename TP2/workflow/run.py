@@ -5,7 +5,17 @@ from sklearn.neighbors import KNeighborsClassifier
 
 from datasets import load_data
 
+def parse_args():
+    pass
+
+def choose_clf(name):
+    theclass = ALL_MODEL_CLASSES[name]
+    clf = theclass()
+    return clf
+
 def main():
+    args = parse_args()
+
     print('loading data ...')
     X, y = load_data()
 
@@ -13,7 +23,7 @@ def main():
     RESULT_PATH = 'results.csv'
 
     print('set up model and cross validation ...')
-    clf = KNeighborsClassifier()
+    clf = choose_classifier(args)
 
     cross_val = ShuffleSplit(n_splits=N_CV, test_size=0.4)
 
@@ -31,12 +41,8 @@ def main():
 
         clf.fit(X_train, y_train)
 
-        accuracy = clf.score(X_train, y_train)
-        monitor['train_accuracy'] =  accuracy
-
         monitor = evaluate_on_train(clf, X_test, y_test, monitor)
         monitor = evaluate_on_test(clf, X_test, y_test, monitor)
-        
 
         all_monitors.append(monitor.copy())
     print('saving results to', RESULT_PATH)
