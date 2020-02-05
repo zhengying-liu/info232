@@ -11,7 +11,7 @@ import argparse
 import pandas as pd
 
 from importlib import import_module
-
+from importlib import invalidate_caches
 from teacher import grade
 from students import get_students
 
@@ -39,6 +39,7 @@ def run(remote_name, question, TP='TP0'):
         git_fetch_remote(remote_name)
         git_reset_remote_master(remote_name)
         git_checkout_TP(TP)
+        invalidate_caches()
         answer = import_module('{}.answers'.format(TP))
         print("="*80)
         results, status = grade(question, answer)
