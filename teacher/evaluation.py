@@ -28,6 +28,7 @@ def evaluate_all(all_questions, all_answers):
         results[question_name] = question.score
         all_status[question_name] = question.status
         total_score += question.score
+        question.score = question.max_score
     results['total'] = total_score
     return results, all_status
 
