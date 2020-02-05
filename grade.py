@@ -34,19 +34,20 @@ def parse_args(main_description="Grading script to grade all registered students
     return args
 
 
-def run(remote_name, question, TP='TP0'):
+def run(remote_name, answer, question, TP='TP0'):
     results = {}
     status  = {}
     try:
         git_fetch_remote(remote_name)
         git_reset_remote_master(remote_name)
         git_checkout_TP(TP)
-        invalidate_caches()
-        answer = import_module('{}.answers'.format(TP))
-        answer = reload_module(answer)
-        print("="*80)
-        results, status = grade(question, answer)
-        print("="*80)
+        try:
+            answer = reload_module(answer)
+            print("="*80)
+            results, status = grade(question, answer)
+            print("="*80)
+        except Exception as e:
+            print(e)
     except AssertionError:
         pass
     results['name'] = remote_name
@@ -68,7 +69,8 @@ def main():
     git_checkout_tmp()
     try :
         question = import_module('{}.questions'.format(TP))
-        all_results = [run(remote_name, question, TP) for student_name, remote_name in STUDENTS.items()]
+        answer = import_module('{}.answers'.format(TP))
+        all_results = [run(remote_name, answer, question, TP) for student_name, remote_name in STUDENTS.items()]
         all_scores = [e[0] for e in all_results]
         all_status = [e[1] for e in all_results]
         score_table = pd.DataFrame(all_scores)
