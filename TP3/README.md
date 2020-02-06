@@ -1,15 +1,17 @@
 Instructions for TP3
 ========
 
-This week you are (finally) working on your own project. 
-If your group name is groupname (for instance doctor, or orbiter, etc.) then your group email is groupname@chalearn.org. It can be used to send email to all your group members, connect to your group Codalab account and your group Github account.
+This week you are (finally) working on your own project!
+
+The [teams](http://saclay.chalearn.org/home/teams_l2_2019_2020) and the [projects](http://saclay.chalearn.org/) can be found on the course's website.
+_Take a moment to navigate through your challenge website to get familiar with the interface and read a bit about the problem..._
 
 Steps 1 and 2 must be performed by your **group leader** only.
 
 Table of Contents
 =================
 * [Step 1: Create group Codalab account and download the starting kit](#step-1-create-group-codalab-account-and-download-the-starting-kit)
-* [Step 2: Create Group Github Account and a Group Repo](#step-2-create-group-github-account-and-a-group-repo)
+* [Step 2: Create Group Github Repository](#step-2-create-group-github-repository)
 * [Step 3: Clone the group repo](#step-3-clone-the-group-repo)
 * [Step 4: Run the jupyter notebook](#step-4-run-the-jupyter-notebook)
 * [Step 5: Submit the sample code to Codalab](#step-5-submit-the-sample-code-to-codalab)
@@ -18,15 +20,17 @@ Table of Contents
 
 (1) **Test Your Group Email:**
 
-**GROUP LEADER:** Send a welcome message to all your group member asking them to reply, by sending email to groupname@chalearn.org. Check that everyone received the message (if they did not reply, investigate the problem, e.g. they should check in they spam box). In case of problem, ask your teacher.
+**GROUP LEADER:** Send a welcome message by e-mail to all your group member asking them to reply. Add your groupname in the e-mail's topic and put _info232@chalearn.org_ as one of the recipient. This way you'll be able to communicate easily in the future.
 
 (2) **Create a Group Account on Codalab:**
 
-**GROUP LEADER:** Go to https://codalab.lri.fr/competitions/ and create a NEW account in the name of the group, using **groupname@chalearn.org as email and groupname as login**. Use info232 as password or share the password with all your group members.
+**GROUP LEADER:** Go to [https://codalab.lri.fr/competitions/](https://codalab.lri.fr/competitions/) and create a NEW account in the name of the group, using **your groupname as login**. Use info232 as password or share the password with all your group members.
 
 (3) **Download the starting kit:**
 
-GROUP LEADER:  Go to [your competitions](http://saclay.chalearn.org/) on Codalab (e.g. group DOCTOR goes to competition HADACA). **ATTENTION:** Le groupes AREAL et PERSODATA doivent choisir la version "PREPROCESSED". Then go to the "Participate" tab, click on "Files".
+GROUP LEADER:  Go to [your competition](http://saclay.chalearn.org/) on Codalab (e.g. group MOSQUITO goes to competition MEDI-CHAL). **WARNING:** MEDI-CHAL and GAIA-SAVERS groups must choose the "PREPROCESSED" version. 
+
+Then go to the "Participate" tab, click on "Files".
 Download the starting kit by clicking on "Starking kit".
 
 On your local computer, create a directory for your project 
@@ -39,7 +43,7 @@ mkdir starting_kit; cd starting_kit
 unzip ~/Téléchargements/starting_kit.zip
 ```
 
-## Step 2: Create Group Github Account and a Group Repo
+## Step 2: Create Group Github Repository
 
 (1) **Initialize your local repo:**
 
@@ -52,7 +56,7 @@ git commit -m "First commit"
 ```
 (2) **Initialize your remote repo: (DO NOT FORGET THIS STEP!!)**
 
-**GROUP LEADER:**  Go to [https://github.com/](https://github.com/) and create a NEW account in the name of the group, using groupname@chalearn.org as email.
+**GROUP LEADER:**  Go to [https://github.com/](https://github.com/).
 
 `Create a new repo. Name it also groupname. Do NOT initialize it with README.`
 
@@ -80,21 +84,15 @@ git clone https://github.com/groupname/groupname.git
 
 **EVERYONE IN THE GROUP, INCLUDING THE GROUP LEADER:**
 
-Fetch the `public_data/` from /partage. WARNING: replace challengename by your challenge name (e.g. if you are working on "areal" use `public_data_areal` instead of `public_data_challengename`).
+Download the `public_data/` from the challenge website. Go to "Participate" tab and then "Files" tab.
 
-```bash
-cd ~/projects/groupname/
-ln -s  /partage/public/isabelle.guyon/M2_AIC_2019/public_data_challengename public_data
-```
-This does not actually copy the data but it makes it available to you via a symbolic link.
-
-Start a jupyter-notebook and run README.ipynb (for instructions to run from home, see [TP1 Appendix A] (https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#appendix-a-how-to-access-the-jupyter-notebook-from-home). Otherwise:
+Start jupyter-notebook and run README.ipynb (for instructions to run from home, see [TP1 Appendix A](https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#appendix-a-how-to-access-the-jupyter-notebook-from-home). Otherwise:
 
 ```bash
 cd ~/projects/groupname/starting_kit/
 jupyter-notebook --ip=127.0.0.1 README.ipynb
 ```
-Make sure you are running Python 3, otherwise see [TP1 Step3] (https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp).
+Make sure you are running Python 3, otherwise see [TP1 Step3](https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp).
 Run the jupyter notebook and run every cell to verify eveything works properly. 
 
 At the end of the notebook you should see a message similar to:
@@ -111,6 +109,4 @@ REPLACE `sample_data` by `public_data` in the notebook then use the option Kerne
 **GROUP LEADER ONLY:**  
 Make sure you have re-run your notebook on the `public_data` (see last instruction of the previous step).
 Go to the Codalab page of your competition (check [http://saclay.chalearn.org/](http://saclay.chalearn.org/)). Go to the "Participate" tab, click on "Submit / View Results", and submit one of the files that was generated by the notebook. After a few seconds, refresh the page and make sure that your score has successfully been computed and go to the "Results" tab to check your submission is recorded in the leaderboard. If yes, you have successfully made your first submission to your challenge!
-
-Next: organize your group in 2 binomes (preprocessing, prediction, and visualization) and split the work to prepare the project proposal.
 
