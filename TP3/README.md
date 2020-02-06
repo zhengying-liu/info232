@@ -4,6 +4,7 @@ Instructions for TP3
 This week you are (finally) working on your own project!
 
 The [teams](http://saclay.chalearn.org/home/teams_l2_2019_2020) and the [projects](http://saclay.chalearn.org/) can be found on the course's website.
+
 _Take a moment to navigate through your challenge website to get familiar with the interface and read a bit about the problem..._
 
 Steps 1 and 2 must be performed by your **group leader** only.
@@ -18,7 +19,7 @@ Table of Contents
 
 ## Step 1: Create group Codalab account and download the starting kit
 
-(1) **Test Your Group Email:**
+(1) **Group Email:**
 
 **GROUP LEADER:** Send a welcome message by e-mail to all your group member asking them to reply. Add your groupname in the e-mail's topic and put _info232@chalearn.org_ as one of the recipient. This way you'll be able to communicate easily in the future.
 
