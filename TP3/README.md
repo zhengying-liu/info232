@@ -128,5 +128,5 @@ Try to import another classifier from sklearn package and re-submit on Codalab.
 
 * Is your score different now?
 
-[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing) &larr link to sklearn doc here!
 
