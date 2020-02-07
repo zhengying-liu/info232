@@ -88,7 +88,7 @@ git clone https://github.com/groupname/groupname.git
 
 **EVERYONE IN THE GROUP, INCLUDING THE GROUP LEADER:**
 
-Download the `public_data/` from the challenge website. Go to "Participate" tab and then "Files" tab.
+Download the `public_data/` from the challenge website by going to "Participate" tab and then "Files" tab. Unzip the folder and put it next to `sample_data`.
 
 Start jupyter-notebook and run README.ipynb (for instructions to run from home, see [TP1 Appendix A](https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#appendix-a-how-to-access-the-jupyter-notebook-from-home). Otherwise:
 
@@ -106,6 +106,8 @@ Submit one of these files:
 ../sample_result_submission_18-12-09-21-06.zip
 ```
 REPLACE `sample_data` by `public_data` in the notebook then use the option Kernel > Restart & Run All to generate submissions using the dataset of the challenge NOT just the sample data.
+
+_/!\ `public_data` may have another name in your challenge._
 
 
 ## Step 5: Submit the sample code to Codalab
