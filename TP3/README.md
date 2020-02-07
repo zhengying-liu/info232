@@ -29,7 +29,9 @@ Table of Contents
 
 (3) **Download the starting kit:**
 
-GROUP LEADER:  Go to [your competition](http://saclay.chalearn.org/) on Codalab (e.g. group MOSQUITO goes to competition MEDI-CHAL). **WARNING:** MEDI-CHAL and GAIA-SAVERS groups must choose the "PREPROCESSED" version. 
+GROUP LEADER:  Go to [your competition](http://saclay.chalearn.org/) on Codalab (e.g. group MOSQUITO goes to competition MEDI-CHAL). 
+
+**WARNING:** MEDI-CHAL and GAIA-SAVERS groups must choose the "PREPROCESSED" version. 
 
 Then go to the "Participate" tab, click on "Files".
 Download the starting kit by clicking on "Starking kit".
@@ -64,9 +66,10 @@ git commit -m "First commit"
 (3) **Push the contents of the starting kit** from your local computer to the remote repo:
 
 **GROUP LEADER:** 
+(**replace `groupname` by your group name!!!**):
 ```bash
 cd ~/projects/groupname/
-git remote add origin https://github.com/groupname/groupname.git
+git remote add origin https://github.com/YOURNAME/GROUPNAME.git
 git push -u origin master
 ```
 
