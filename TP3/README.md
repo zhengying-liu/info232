@@ -80,7 +80,7 @@ git push -u origin master
 
 ```bash
 cd ~/projects
-git clone https://github.com/groupname/groupname.git
+git clone https://github.com/YOURNAME/GROUPNAME.git
 ```
 
 
