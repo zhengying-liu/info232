@@ -94,9 +94,9 @@ Start jupyter-notebook and run README.ipynb (for instructions to run from home, 
 
 ```bash
 cd ~/projects/groupname/starting_kit/
-jupyter-notebook --ip=127.0.0.1 README.ipynb
+jupyter3-notebook README.ipynb
 ```
-Make sure you are running Python 3, otherwise see [TP1 Step3](https://github.com/zhengying-liu/info232/blob/master/TP1/README.md#step-3-launch-jupyter-notebook-and-answer-questions-of-this-tp).
+
 Run the jupyter notebook and run every cell to verify eveything works properly. 
 
 At the end of the notebook you should see a message similar to:
