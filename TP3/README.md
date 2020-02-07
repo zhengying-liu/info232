@@ -130,9 +130,9 @@ Go to the Codalab page of your competition (check [http://saclay.chalearn.org/](
 
 **3.** Try to import another classifier from sklearn package and re-submit on Codalab.
 
+**[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing)** &larr; link to classifiers in sklearn doc here!
+
 * Is your score different now?
 
 **4.** Go on top of the leaderboard!
-
-**[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing)** &larr; link to classifiers in sklearn doc here!
 
