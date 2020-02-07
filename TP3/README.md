@@ -16,6 +16,7 @@ Table of Contents
 * [Step 3: Clone the group repo](#step-3-clone-the-group-repo)
 * [Step 4: Run the jupyter notebook](#step-4-run-the-jupyter-notebook)
 * [Step 5: Submit the sample code to Codalab](#step-5-submit-the-sample-code-to-codalab)
+* [Bonus step: Improve your score!](#bonus-step-go-further)
 
 ## Step 1: Create group Codalab account and download the starting kit
 
@@ -118,7 +119,7 @@ Go to the Codalab page of your competition (check [http://saclay.chalearn.org/](
 
 ![up](up.png)
 
-## To go further:
+## Bonus step: Go further!
 
 **(1)** Open `sample_code_submission/model.py` with an IDE.
 
