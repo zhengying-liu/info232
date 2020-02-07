@@ -120,13 +120,13 @@ Go to the Codalab page of your competition (check [http://saclay.chalearn.org/](
 
 ## To go further:
 
-Open `sample_code_submission/model.py` with an IDE.
+1. Open `sample_code_submission/model.py` with an IDE.
 
 * What is the classifier used?
 
-Try to import another classifier from sklearn package and re-submit on Codalab.
+2. Try to import another classifier from sklearn package and re-submit on Codalab.
 
 * Is your score different now?
 
-[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing) &larr; link to classifiers in sklearn doc here!
+**[Slides](https://docs.google.com/presentation/d/1vfdS9ttwvK3mzGcoRBoe-n8iVzYOzSKUZsemXjDnPmA/edit?usp=sharing)** &larr; link to classifiers in sklearn doc here!
 
