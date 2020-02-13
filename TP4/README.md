@@ -47,7 +47,7 @@ Add each member as a collaborator into the github repository (github repository 
 You are supposed to work in pair. Open the notebook (copy version, `README_{YOUR-SUBGROUP}.ipynb`) and follow instruction depending on your task. Your grade will depend on the readability of the notebook, quality of your code and analysis of the result.
 
 
-### Pre-processing group
+### Pre-processing subgroup
 
 For a general introduction of frequently used method, you can refer to [sklearn preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html).
 
@@ -63,7 +63,7 @@ Mandatory questions are:
 
 
 
-### Model
+### Model subgroup
 
 Your goal is the find the most performing machine learning model (and its corresponding hyperparameters) for your problem.
 
@@ -80,7 +80,7 @@ Mandatory questions are:
 **Bonus**: Try ensemble learning by combining prediction from different model ([stacking](https://scikit-learn.org/stable/modules/ensemble.html#stacked-generalization), [voting](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier), ...).
 
 
-### Visualizaton
+### Visualizaton subgroup
 
 Your goal is to create useful visualization. We encourage you to look at these [Seaborn examples](https://seaborn.pydata.org/examples/index.html).
 
