@@ -32,6 +32,7 @@ In order to prevent conflict changes on git repository, each pairs of student sh
 
 ```bash
 cd ~/projects
+cd groupname # /!\ REPLACE groupname by your groupname /!\
 cd starting_kit
 cp README.ipynb README_{YOUR-SUBGROUP}.ipynb # YOUR-SUBGROUP: preprocessing, visualizaton, model
 ```
