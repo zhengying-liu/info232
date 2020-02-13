@@ -11,7 +11,7 @@ _Take a moment to navigate through your challenge website to get familiar with t
 
 Table of Contents
 =================
-* [Step 1: Define student pair and environment setup](#step-1-Define-student-pair-and-environment-setup)
+* [Step 1: Subgroup and environment setup](#step-1-Subgroup-and-environment-setup)
 * [Step 2: Tasks](#step-2-tasks)
 * [Step 3: Push your changes](#step-3-Push-your-changes)
 
