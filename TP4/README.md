@@ -19,7 +19,7 @@ Table of Contents
 
 ### 1.1 Define subgroup
 
-For each team, create subgroups of student for the three tasks: pre-processing, model and visualization.
+For each team, create subgroups of student for the three tasks: **pre-processing**, **model** and **visualization**.
 
 **GROUP LEADER:** By replying your welcome e-mail, send us the name of each student pairs with their corresponding task and the link of your team Github repository.
 
