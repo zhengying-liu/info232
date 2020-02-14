@@ -89,13 +89,13 @@ Your goal is to create useful visualization. We encourage you to look at these [
 
 Mandatory questions are:
 
-* Plot confusion matrix: https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+* Visualize [cluster](https://scikit-learn.org/stable/modules/clustering.html) in your data.
 
 * Create interesting visualization to investigate error in prediction: classifier ([decision boundary](https://scikit-learn.org/0.15/auto_examples/tree/plot_iris.html)), regressor ([residual error](https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html#sphx-glr-auto-examples-tree-plot-tree-regression-py))
 
 * Plot performance of machine learning model with error (see TP2).
 
-**BONUS**: Visualize cluster in your data.
+**BONUS**: Plot the performance as a function hyperparameters of machine learning algorithm. 
 
 
 
