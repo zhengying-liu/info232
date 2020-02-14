@@ -16,6 +16,7 @@ Table of Contents
 * [Step 1: Subgroup and environment setup](#step-1-Subgroup-and-environment-setup)
 * [Step 2: Tasks](#step-2-tasks)
 * [Step 3: Push your changes](#step-3-Push-your-changes)
+* [Step 4: Submit to Chagrade](#step-4-submit-to-chagrade)
 
 ## Step 1: Subgroup and environment setup
 
@@ -109,3 +110,13 @@ git commit -m "improve starting kit: {YOUR-SUBGROUP}"
 git pull
 git push
 ```
+
+## Step 4: Submit to Chagrade
+
+**One person of each binome** submit the notebook URL to [Chagrade](https://chagrade.lri.fr/homework/submit/2/23/1/).
+
+Grading:
+* Readability (/5)
+* Quality of code (/5)
+* Analysis (/5)
+* Originality (/5) _interesting ideas, etc._
