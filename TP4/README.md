@@ -1,3 +1,5 @@
+## Deadline strict: Lundi 25 février !
+
 Instructions for TP4
 ========
 
@@ -19,7 +21,7 @@ Table of Contents
 
 ### 1.1 Define subgroup
 
-For each team, create three binômes for the three tasks: pre-processing, model and visualization.
+For each team, create subgroups of student for the three tasks: **pre-processing**, **model** and **visualization**.
 
 **GROUP LEADER:** By replying your welcome e-mail, send us the list of binôme and the link of your team Github repository.
 
@@ -32,6 +34,7 @@ In order to prevent conflict changes on git repository, each binôme should copy
 
 ```bash
 cd ~/projects
+cd groupname # /!\ REPLACE groupname by your groupname /!\
 cd starting_kit
 cp README.ipynb README_{YOUR-SUBGROUP}.ipynb # YOUR-SUBGROUP: preprocessing, visualizaton, model
 ```
@@ -46,7 +49,7 @@ Add each member as a collaborator into the github repository (github repository 
 You are supposed to work in pairs. Open the notebook (copy version, `README_{YOUR-SUBGROUP}.ipynb`) and follow your task instructions. Your grade will depend on the readability of the notebook, quality of your code and analysis of the result.
 
 
-### Pre-processing group
+### Pre-processing subgroup
 
 For a general introduction of frequently used method, you can refer to [sklearn preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html).
 
@@ -62,7 +65,7 @@ Mandatory questions are:
 
 
 
-### Model
+### Model subgroup
 
 Your goal is the find the most performing machine learning model (and its corresponding hyperparameters) for your problem.
 
@@ -79,7 +82,7 @@ Mandatory questions are:
 **Bonus**: Try ensemble learning by combining prediction from different model ([stacking](https://scikit-learn.org/stable/modules/ensemble.html#stacked-generalization), [voting](https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier), ...).
 
 
-### Visualizaton
+### Visualizaton subgroup
 
 Your goal is to create useful visualization. We encourage you to look at these [Seaborn examples](https://seaborn.pydata.org/examples/index.html).
 
