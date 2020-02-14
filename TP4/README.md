@@ -1,3 +1,5 @@
+# Deadline strict: Lundi 25 février ! 
+
 Instructions for TP4
 ========
 
