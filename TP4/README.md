@@ -85,7 +85,7 @@ Mandatory questions are:
 
 ### Visualizaton subgroup
 
-Your goal is to create useful visualization. We encourage you to look at these [Seaborn examples](https://seaborn.pydata.org/examples/index.html).
+Your goal is to create useful visualizations. We encourage you to look at these [Seaborn examples](https://seaborn.pydata.org/examples/index.html). To get started, look at the already existing visualizations in the notebook and analyze them.
 
 
 Mandatory questions are:
