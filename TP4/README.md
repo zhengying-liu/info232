@@ -19,15 +19,15 @@ Table of Contents
 
 ### 1.1 Define subgroup
 
-For each team, create subgroups of student for the three tasks: pre-processing, model and visualization.
+For each team, create three binômes for the three tasks: pre-processing, model and visualization.
 
-**GROUP LEADER:** By replying your welcome e-mail, send us the name of each student pairs with their corresponding task and the link of your team Github repository.
+**GROUP LEADER:** By replying your welcome e-mail, send us the list of binôme and the link of your team Github repository.
 
 ### 1.2 Environment setup
 
 **EVERYONE IN THE GROUP, INCLUDING THE GROUP LEADER:**
 
-In order to prevent conflict changes on git repository, each pairs of student should copy the original `README.ipynb` and work on their own copy.
+In order to prevent conflict changes on git repository, each binôme should copy the original `README.ipynb` and work on their own copy.
 
 
 ```bash
@@ -43,7 +43,7 @@ Add each member as a collaborator into the github repository (github repository 
 
 ## Step 2: Tasks
 
-You are supposed to work in pair. Open the notebook (copy version, `README_{YOUR-SUBGROUP}.ipynb`) and follow instruction depending on your task. Your grade will depend on the readability of the notebook, quality of your code and analysis of the result.
+You are supposed to work in pairs. Open the notebook (copy version, `README_{YOUR-SUBGROUP}.ipynb`) and follow your task instructions. Your grade will depend on the readability of the notebook, quality of your code and analysis of the result.
 
 
 ### Pre-processing group
@@ -88,7 +88,7 @@ Mandatory questions are:
 
 * Plot confusion matrix: https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
 
-* Create interesting visualization to investigate error in prediction: classifier ([decision boundary](https://scikit-learn.org/0.15/auto_examples/tree/plot_iris.html)), regressor ([residual error](https://scikit-learn.org/0.15/auto_examples/tree/plot_iris.html))
+* Create interesting visualization to investigate error in prediction: classifier ([decision boundary](https://scikit-learn.org/0.15/auto_examples/tree/plot_iris.html)), regressor ([residual error](https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html#sphx-glr-auto-examples-tree-plot-tree-regression-py))
 
 * Plot performance of machine learning model with error (see TP2).
 
