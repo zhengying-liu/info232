@@ -109,3 +109,13 @@ git commit -m "improve starting kit: {YOUR-SUBGROUP}"
 git pull
 git push
 ```
+
+## Step 4: Submit to [Chagrade](https://chagrade.lri.fr/homework/submit/2/23/1/)
+
+1 person of each binome submit the notebook URL to Chagrade.
+
+Grading:
+* Readability (/5)
+* Quality of code (/5)
+* Analysis (/5)
+* Originality (/5) _interesting ideas, etc._
