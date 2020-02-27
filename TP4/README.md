@@ -62,7 +62,7 @@ Mandatory questions are:
 
 * Try [feature selection](https://scikit-learn.org/stable/modules/feature_selection.html) (remove unnecessary feature in the data) and observe performance. Then highlight most important features.
 
-**Bonus**: Generate new features and see if performance improves
+**Bonus**: Generate new features and see if performance improves.
 
 
 
