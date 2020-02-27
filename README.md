@@ -4,6 +4,6 @@ This GitHub repository aims to share teaching resources for L2 students enrolled
 For more instructions for each TP, please go to the corresponding folder.
 
 
-<img src="https://www.universite-paris-saclay.fr/profiles/saclay/themes/saclay_v2/logo.svg" height="100">
+<img src="logo_paris_saclay.png" height="100">
 
 The authors include: Isabelle Guyon, Zhengying Liu, Adrien pavao, Balthazar Donon, Herilalaina Rakotoarison, and Victor Estrade.
