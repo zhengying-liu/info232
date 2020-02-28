@@ -1,4 +1,4 @@
-# Project Proposal
+# Project Proposal - Proposition de Projet
 
 This week you will produce a proposal in PDF format. You can use LaTeX or any document writer software.
 
