@@ -1,3 +1,6 @@
+# /!\ Attention, la séance de la semaine prochaine consistera (a priori) à écrire un rapport de proposition de projet /!\
+
+# Ce TP n'aura donc pas lieu
 
 ## Deadline : Friday 13 March
 
