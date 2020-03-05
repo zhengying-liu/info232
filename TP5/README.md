@@ -9,4 +9,4 @@ You can draw inspiration from the following example: [proposal_template.pdf](pro
 ### Submit
 
 1. Upload your report on your group's Github repository. 
-2. Then, submit the link on Chagrade, on [6. Proposal](https://chagrade.lri.fr/). You need to submit the link only once for the group. Ask the project leader to submit (or anybody else can do it if he/she is not available).
+2. Then, submit the link on Chagrade, on [6. Proposal](https://chagrade.lri.fr/homework/submit/2/21/1/). You need to submit the link only once for the group. Ask the project leader to submit (or anybody else can do it if he/she is not available).
