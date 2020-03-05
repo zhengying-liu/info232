@@ -10,3 +10,7 @@ You can draw inspiration from the following example: [proposal_template.pdf](pro
 
 1. Upload your report on your group's Github repository. 
 2. Then, submit the link on Chagrade, on [6. Proposal](https://chagrade.lri.fr/homework/submit/2/21/1/). You need to submit the link only once for the group. Ask the project leader to submit (or anybody else can do it if he/she is not available).
+
+#### PS. Gaiasavers and Medi-chal groups
+
+Remember that you can study the raw data (images instead of pre-processed features) for a more interesting project!
