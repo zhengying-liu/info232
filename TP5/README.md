@@ -8,6 +8,8 @@ To facilitate report writing as a group, you can use a shared writing software s
 
 You can draw inspiration from the following example: [proposal_template.pdf](proposal_template.pdf).
 
+Here is an example of [successful report](https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2hhbGVhcm4ub3JnfHNhY2xheXxneDozZWY1NGIxNzM0YjVlNWFk).
+
 ### Grading
 
 * **Originality (/5)**: try to add **your own ideas**, to be **creative**. Examples: You find an interesting plot? Include it. You discovered a processing that may work very well/bad? Talk about it. You tried or want to try a unique model? Describe it.
