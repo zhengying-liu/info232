@@ -8,6 +8,14 @@ To facilitate report writing as a group, you can use a shared writing software s
 
 You can draw inspiration from the following example: [proposal_template.pdf](proposal_template.pdf).
 
+### Grading
+
+* **Usefulness/novelty/originality (/5)**: try to add **your own ideas**, to be **creative**. Examples: You find an interesting plot? Include it. You discover that a processing works very well/very bad? Talk about it. You tried a unique model? Describe it.
+
+* **Clarity/presentation (/5)**: is your report easy to read? Does it inclue plots, titles? Is the text formatting good?
+
+* **Soundness (/10)**: does your report make sense? The information provided should be accurate and interesting. Did you provide results? Explanations? Analysis? Describe, with your own words, the models and methods you want to study. Your descriptions must be accurate.
+
 ### Submit
 
 1. Upload your report on your group's Github repository. 
