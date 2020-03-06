@@ -12,7 +12,7 @@ You can draw inspiration from the following example: [proposal_template.pdf](pro
 
 * **Usefulness/novelty/originality (/5)**: try to add **your own ideas**, to be **creative**. Examples: You find an interesting plot? Include it. You discovered a processing that may work very well/bad? Talk about it. You tried or want to try a unique model? Describe it.
 
-* **Clarity/presentation (/5)**: is your report easy to read? Does it include plots, titles? Is the text formatting good?
+* **Clarity/presentation (/5)**: is your report easy to read? Does it include figures, titles, bibliography? Is the text formatting good?
 
 * **Soundness (/10)**: does your report make sense? The information provided should be accurate and interesting. Did you provide results? Explanations? Analysis? Describe, with your own words, the models and methods you want to study in the future. Your descriptions must be accurate.
 
