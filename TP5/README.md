@@ -10,7 +10,7 @@ You can draw inspiration from the following example: [proposal_template.pdf](pro
 
 ### Grading
 
-* **Usefulness/novelty/originality (/5)**: try to add **your own ideas**, to be **creative**. Examples: You find an interesting plot? Include it. You discover that a processing works very well/very bad? Talk about it. You tried a unique model? Describe it.
+* **Usefulness/novelty/originality (/5)**: try to add **your own ideas**, to be **creative**. Examples: You find an interesting plot? Include it. You discovered a processing that may work very well/bad? Talk about it. You tried or want to try a unique model? Describe it.
 
 * **Clarity/presentation (/5)**: is your report easy to read? Does it inclue plots, titles? Is the text formatting good?
 
