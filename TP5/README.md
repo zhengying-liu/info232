@@ -8,7 +8,7 @@ To facilitate report writing as a group, you can use a shared writing software s
 
 You can draw inspiration from the following example: [proposal_template.pdf](proposal_template.pdf).
 
-Here is an example of [successful report](https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2hhbGVhcm4ub3JnfHNhY2xheXxneDozZWY1NGIxNzM0YjVlNWFk).
+Here is an example of [successful proposal](https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2hhbGVhcm4ub3JnfHNhY2xheXxneDozZWY1NGIxNzM0YjVlNWFk).
 
 ### Grading
 
