@@ -2,6 +2,8 @@
 
 ### Strict deadline: March 15
 
+[Updated instructions for proposal](https://sites.google.com/a/chalearn.org/saclay/home/info232-syllabus-2019-2020/proposal)
+
 This week you will produce a proposal in PDF format. 
 
 To facilitate report writing as a group, you can use a shared writing software such as [Google docs](https://docs.google.com) or [Overleaf](https://overleaf.com).
