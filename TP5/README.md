@@ -1,8 +1,8 @@
 # Project Proposal - Proposition de Projet
 
-### Strict deadline: March 15
-
 [Updated instructions for proposal](https://sites.google.com/a/chalearn.org/saclay/home/info232-syllabus-2019-2020/proposal)
+
+### Strict deadline: March 15
 
 This week you will produce a proposal in PDF format. 
 
