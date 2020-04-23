@@ -1,0 +1,16 @@
+usage = 'Sample dataset Traffic Volume data'
+name = 'traffic'
+task = 'regression'
+target_type = 'Numerical'
+feat_type = 'Numerical'
+metric = 'bac_metric'
+time_budget =  1200
+feat_num =     58
+target_num =     3
+label_num =     3
+train_num =   35
+valid_num =    35
+test_num =    35
+has_categorical =     0
+has_missing =     0
+is_sparse =     0

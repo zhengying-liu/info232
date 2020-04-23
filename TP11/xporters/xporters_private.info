@@ -1,0 +1,24 @@
+title = 'Traffic volume dataset'
+keywords = 'regression'
+authors = 'Xporters'
+resource_url = 'https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume'
+contact_name = 'Isabelle Guyon'
+contact_url = 'https://chalearn.org'
+license = 'http://creativecommons.org/about/cc0'
+date_created = '09/27/2019'
+past_usage = 'Many'
+description = 'Hourly Minneapolis-St Paul, MN traffic volume for westbound I-94. Includes weather and holiday features from 2012-2018.'
+representation = 'features'
+real_feat_num = 58
+probe_num = 0
+frac_probes =   0
+feat_type = { 'Numerical' 'Categorical' 'Binary' }
+feat_type_freq = [     1     0     0 ]
+label_names = { }
+train_label_freq = [ 0.33333 0.33333 0.33333  ]
+train_frac_missing = 0
+valid_label_freq = [ 0.33333 0.33333 0.33333  ]
+valid_frac_missing = 0
+test_label_freq = [ 0.33333 0.33333 0.33333  ]
+test_frac_missing = 0
+

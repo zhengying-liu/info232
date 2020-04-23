@@ -1,0 +1,24 @@
+title = 'Bering Sea dataset'
+keywords = 'classification,multi class'
+authors = 'Kaichang Cheng'
+resource_url = 'https://figshare.com/articles/Dataset_BeringSea_zip/8146283'
+contact_name = 'Isabelle Guyon'
+contact_url = 'https://chalearn.org'
+license = 'http://creativecommons.org/about/cc0'
+date_created = '05/19/2019'
+past_usage = 'Enhanced CNN'
+description = ''
+representation = 'features'
+real_feat_num = 203
+probe_num = 0
+frac_probes =   0
+feat_type = { 'Numerical' 'Categorical' 'Binary' }
+feat_type_freq = [     1     0     0 ]
+label_names = { 'chaetognatha' 'copepoda' 'euphausiids' 'fish_larvae' 'limacina' 'medusae 'other' }
+train_label_freq = [ 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285  ]
+train_frac_missing = 0
+valid_label_freq = [ 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285  ]
+valid_frac_missing = 0
+test_label_freq = [ 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285 0.14285  ]
+test_frac_missing = 0
+

@@ -118,30 +118,40 @@ class DataManager(data_manager.DataManager):
      
     def DataStats(self, set_name):
     	''' Display simple data statistics.'''
+    	print('DataStats for ' + set_name)
     	DF = self.toDF(set_name)
-    	return 0 # Return something better
+    	# You could replace this by a function that computes bonus table 1
+    	print(DF.describe())
+    	return  0
     	
-    def DataHist(self, set_name):
+    def DataHist(self, set_name, column_num=4):
         ''' Show histograms.'''
+        print('Histograms for ' + set_name)
         DF = self.toDF(set_name)
+        column_num = min(column_num, DF.shape[1]-1)
+        chosen_columns = list(DF.columns[0:column_num])
+        DF.hist(column = chosen_columns, figsize=(10, 10), bins=10, layout=(3, 2))
+        plt.show()
         return 0 # Return something better
     
-    def ShowScatter(self, set_name):
+    def ShowScatter(self, set_name, column_num=4):
         ''' Show scatter plots.'''
+        print('ScatterPlots for ' + set_name)
         DF = self.toDF(set_name)
+        column_num = min(column_num, DF.shape[1]-1)
+        chosen_columns = list(DF.columns[0:column_num])
         if set_name == 'train':
-        	return 0 # Return something better
+        	sns.pairplot(DF, vars = chosen_columns, diag_kind="hist", hue="target")
         else:
-        	return 0 # Return something better
+        	sns.pairplot(DF, vars = chosen_columns, diag_kind="hist")
+        plt.show()
+        return 0 # Return something better
 
     def ShowSomethingElse(self):
         ''' Surprise me.'''
         # For your project proposal, provide
         # a sketch with what you intend to do written in English (or French) is OK.
         pass
-        
-    ##### END OF YOUR OWN METHODS ######################
-    
 
     def ClfScatter(self, clf, dim1=0, dim2=1, title=''):
         '''(self, clf, dim1=0, dim2=1, title='')
@@ -204,7 +214,7 @@ class DataManager(data_manager.DataManager):
 if __name__=="__main__":
     # You can use this to run this file as a script and test the DataManager
     if len(argv)==1: # Use the default input and output directories if no arguments are provided
-        input_dir = "../public_data"
+        input_dir = "../iris"
         output_dir = "../results"
     else:
         input_dir = argv[1]
@@ -213,8 +223,11 @@ if __name__=="__main__":
     print("Using input_dir: " + input_dir)
     print("Using output_dir: " + output_dir)
     
-    basename = 'Iris'
+    basename = 'iris'
     D = DataManager(basename, input_dir)
     print(D)
     
-    D.DataStats('train')
+    print(D.DataStats('train'))
+    D.DataHist('test')
+    D.ShowScatter('valid')
+    D.ShowScatter('train')

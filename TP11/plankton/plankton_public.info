@@ -1,0 +1,16 @@
+usage = 'Sample dataset plankton data'
+name = 'plankton'
+task = 'multiclass.classification'
+target_type = 'Numerical'
+feat_type = 'Numerical'
+metric = 'bac_metric'
+time_budget =  1200
+feat_num =     202
+target_num =     7
+label_num =     7
+train_num =   10752
+valid_num =    3584
+test_num =    3584
+has_categorical =     0
+has_missing =     0
+is_sparse =     0
